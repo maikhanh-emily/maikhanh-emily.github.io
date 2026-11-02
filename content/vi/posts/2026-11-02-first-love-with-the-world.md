@@ -1,7 +1,7 @@
 ---
 title: Du học là mối tình đầu với thế giới
 date: 2026-11-02
-happened: 2025
+happened: 9/2025
 tags: [Cá nhân, Du học]
 summary: Điều quý giá nhất mà du học mang lại chưa bao giờ là tấm bằng xuất sắc, mà có lẽ là việc mình đem lòng yêu cả một thế giới.
 art_caption: Một buổi chiều mùa hạ nơi núi đồi Na Uy. Hình vẽ minh họa, không phải ảnh chụp.
