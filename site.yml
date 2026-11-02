@@ -13,7 +13,7 @@ cv_file: ""         # e.g. /static/MaiKhanhDo_CV.pdf  (copy the PDF into static/
 
 # Final address of the site. Used for the RSS feed, link previews and the vCard.
 # Set it after the first deploy, e.g. https://your-handle.github.io
-url: ""
+url: "https://maikhanh-emily.github.io"
 
 portrait: /static/portrait.jpg
 og_image: /static/og-image.jpg
