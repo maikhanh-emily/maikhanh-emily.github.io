@@ -6,8 +6,8 @@
 <title>{{ page_title }}</title>
 <meta name="description" content="{{ page_description }}">
 <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#131211" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#4a6670" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#2f444d" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ L }}feed.xml">
 {% for alt in alternates %}
@@ -15,8 +15,8 @@
 {% endfor %}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/static/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Imbue:opsz,wght@10..100,400..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css?v={{ css_version }}">
 <script>(function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();</script>
 <meta property="og:title" content="{{ page_title }}">
 <meta property="og:description" content="{{ page_description }}">
@@ -33,7 +33,7 @@
 <a class="skip" href="#main">{{ S.labels.skip }}</a>
 <header class="site-header">
   <div class="wrap nav">
-    <a class="brand" href="{{ L }}"><span class="brand-mark" aria-hidden="true">MK</span><span class="brand-name">{{ site.name }}</span></a>
+    <a class="brand" href="{{ L }}" aria-label="{{ site.name }}">{% include "_mark.svg" %}<span class="brand-name">{{ site.name }}</span></a>
     <nav aria-label="Main">
       <a href="{{ L }}projects/"{% if section == 'projects' %} aria-current="page"{% endif %}>{{ S.nav.projects }}</a>
       <a href="{{ L }}blog/"{% if section == 'blog' %} aria-current="page"{% endif %}>{{ S.nav.writing }}</a>
@@ -53,8 +53,11 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>© {{ year }} {{ site.name }} · <a href="{{ L }}feed.xml">{{ S.labels.rss }}</a> · <a href="/contact.vcf" download>{{ S.hero.buttons.vcard }}</a>{% for alt in alternates %}{% if alt.lang != lang %} · <a href="{{ alt.url }}" lang="{{ alt.lang }}">{{ alt.label }}</a>{% endif %}{% endfor %}</p>
-    <p class="muted">{{ S.labels.built }}</p>
+    {% include "_mark.svg" %}
+    <div>
+      <p>© {{ year }} {{ site.name }} · <a href="{{ L }}feed.xml">{{ S.labels.rss }}</a> · <a href="/contact.vcf" download>{{ S.hero.buttons.vcard }}</a>{% for alt in alternates %}{% if alt.lang != lang %} · <a href="{{ alt.url }}" lang="{{ alt.lang }}">{{ alt.label }}</a>{% endif %}{% endfor %}</p>
+      <p class="muted">{{ S.labels.built }}</p>
+    </div>
   </div>
 </footer>
 <script src="/static/main.js"></script>

@@ -21,6 +21,20 @@ hero:
     cv: CV
     vcard: Save contact
 
+route:
+  - code: HAN
+    city: Hanoi
+    note: Grew up, studied
+  - code: NUE
+    city: Nuremberg
+    note: Exchange, 2023
+  - code: BGO
+    city: Bergen
+    note: Master's, 2025
+  - code: OSL
+    city: Oslo
+    note: Study and work, 2026
+
 card:
   - label: Based in
     value: Bergen and Oslo, Norway
@@ -47,6 +61,7 @@ labels:
   featured: Featured
   min_read: min read
   written: Written
+  route: My route so far
   draft: Draft
   updated: Updated
   back_projects: All projects

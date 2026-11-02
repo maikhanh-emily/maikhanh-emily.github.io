@@ -1,31 +1,37 @@
 {% extends "base.html" %}
 {% block content %}
 <section class="hero">
-  <div class="wrap">
-    <div class="card">
-      <div class="card-main">
-        <div class="portrait"><img src="{{ site.portrait }}" alt="{{ site.name }}" width="900" height="900" fetchpriority="high"></div>
-        <div class="card-text">
-          <p class="eyebrow">{{ S.hero.eyebrow }}</p>
-          <h1>{{ S.hero.headline }}</h1>
-          <p class="title">{{ S.hero.title }}</p>
-          <p class="lede">{{ S.hero.lede }}</p>
-          <div class="actions">
-            {% if site.linkedin %}<a class="btn primary" href="{{ site.linkedin }}">{{ S.hero.buttons.linkedin }}</a>{% endif %}
-            {% if site.github %}<a class="btn" href="{{ site.github }}">{{ S.hero.buttons.github }}</a>{% endif %}
-            {% if site.cv_file %}<a class="btn" href="{{ site.cv_file }}">{{ S.hero.buttons.cv }}</a>{% endif %}
-            <a class="btn ghost" href="/contact.vcf" download>{{ S.hero.buttons.vcard }}</a>
-          </div>
-        </div>
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">{{ S.hero.eyebrow }}</p>
+      <h1>{{ S.hero.headline }}</h1>
+      <p class="title">{{ S.hero.title }}</p>
+      <p class="lede">{{ S.hero.lede }}</p>
+      <div class="actions">
+        {% if site.linkedin %}<a class="btn primary" href="{{ site.linkedin }}">{{ S.hero.buttons.linkedin }}</a>{% endif %}
+        {% if site.github %}<a class="btn" href="{{ site.github }}">{{ S.hero.buttons.github }}</a>{% endif %}
+        {% if site.cv_file %}<a class="btn" href="{{ site.cv_file }}">{{ S.hero.buttons.cv }}</a>{% endif %}
+        <a class="btn ghost" href="/contact.vcf" download>{{ S.hero.buttons.vcard }}</a>
       </div>
-      <dl class="facts">
-        {% for f in S.card %}
-        <div><dt>{{ f.label }}</dt><dd>{{ f.value }}</dd></div>
-        {% endfor %}
-      </dl>
     </div>
+    <div class="portrait"><img src="{{ site.portrait }}" alt="{{ site.name }}" width="720" height="720" fetchpriority="high"></div>
+  </div>
+  <div class="wrap">
+    <ol class="route" aria-label="{{ S.labels.route }}">
+      {% for r in S.route %}
+      <li{% if loop.last %} class="now"{% endif %}><span class="code">{{ r.code }}</span><span class="city">{{ r.city }}</span><span class="note">{{ r.note }}</span></li>
+      {% endfor %}
+    </ol>
   </div>
 </section>
+
+<div class="wrap">
+  <dl class="facts">
+    {% for f in S.card %}
+    <div><dt>{{ f.label }}</dt><dd>{{ f.value }}</dd></div>
+    {% endfor %}
+  </dl>
+</div>
 
 <section class="section wrap" id="about">
   <h2 class="section-title">{{ S.sections.about }}</h2>

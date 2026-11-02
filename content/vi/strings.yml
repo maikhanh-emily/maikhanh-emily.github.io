@@ -21,6 +21,20 @@ hero:
     cv: CV
     vcard: Lưu vào danh bạ
 
+route:
+  - code: HAN
+    city: Hà Nội
+    note: Lớn lên và học đại học
+  - code: NUE
+    city: Nuremberg
+    note: Học kỳ trao đổi, 2023
+  - code: BGO
+    city: Bergen
+    note: Học thạc sĩ, 2025
+  - code: OSL
+    city: Oslo
+    note: Học và làm việc, 2026
+
 card:
   - label: Đang ở
     value: Bergen và Oslo, Na Uy
@@ -47,6 +61,7 @@ labels:
   featured: Tiêu biểu
   min_read: phút đọc
   written: Viết ngày
+  route: Hành trình của tôi
   draft: Bản nháp
   updated: Cập nhật
   back_projects: Tất cả dự án

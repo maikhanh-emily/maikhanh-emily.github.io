@@ -15,12 +15,14 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import hashlib
 import re
 import sys
 import unicodedata
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from urllib.parse import urlsplit
 from xml.sax.saxutils import escape
 
 import markdown
@@ -293,6 +295,8 @@ def build(include_drafts: bool = False) -> None:
     )
     env.filters["slug"] = slugify
     year = dt.date.today().year
+    # Changes when the stylesheet changes, so browsers don't pair new pages with a cached old one.
+    css_version = hashlib.md5((STATIC / "style.css").read_bytes()).hexdigest()[:8]
 
     def prefix_of(lang: str) -> str:
         return "/" if lang == default else f"/{lang}/"
@@ -321,10 +325,12 @@ def build(include_drafts: bool = False) -> None:
     def write(out_rel: str, template: str, lang: str, alts: list, **ctx) -> None:
         depth = len(Path(out_rel).parts) - 1
         root = "../" * depth if depth else "./"
+        if out_rel == "404.html":  # served at any path, so its links can't be relative
+            root = urlsplit(site.get("url") or "").path.rstrip("/") + "/"
         d = data[lang]
         other = next((a for a in alts if a["lang"] != lang), alts[0])
         context = {
-            "site": site, "S": d["strings"], "L": prefix_of(lang), "lang": lang, "year": year,
+            "site": site, "S": d["strings"], "L": prefix_of(lang), "lang": lang, "year": year, "css_version": css_version,
             "alternates": alts, "alt_url": other["url"], "alt_lang": other["lang"],
             "canonical": "/" + out_rel.replace("index.html", ""),
             "fmt_date": lambda v: format_date(v, lang),

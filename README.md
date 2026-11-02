@@ -40,7 +40,7 @@ Thêm `draft: true` nếu chưa muốn đăng (bài sẽ không được build k
 
 **Link LinkedIn, GitHub, file CV, địa chỉ site.** Sửa `site.yml`. Nút nào để trống sẽ tự ẩn.
 
-**Đổi ảnh.** Thay `static/portrait.jpg` (ảnh vuông, 900×900 là đủ) và `static/og-image.jpg` (1200×630, hiện khi chia sẻ link).
+**Đổi ảnh.** Thay `static/portrait-cut.webp` (ảnh vuông đã tách nền, nền trong suốt, 720×720 là đủ) và `static/og-image.jpg` (1200×630, hiện khi chia sẻ link). Ảnh gốc chưa tách nền là `static/portrait.jpg`.
 
 **Đăng lên web.** Sau khi sửa:
 
@@ -76,8 +76,8 @@ content/<lang>/         everything a reader sees, one folder per language
   projects/*.md         one file per project, same filename across languages
   posts/YYYY-MM-DD-*.md blog posts
 content/illustrations/  one SVG per project, same filename as the project, shared across languages
-templates/              Jinja2 templates (base, index, projects, project, blog, post, page, tag, 404)
-static/                 style.css, main.js, favicon.svg, portrait.jpg, og-image.jpg
+templates/              Jinja2 templates (base, index, projects, project, blog, post, page, tag, 404) and _mark.svg, the MK monogram
+static/                 style.css, main.js, favicon.svg, portrait-cut.webp, portrait.jpg, og-image.jpg
 build.py                the whole build: Markdown + YAML → dist/
 .github/workflows/      builds dist/ and deploys it to GitHub Pages on every push to main
 ```

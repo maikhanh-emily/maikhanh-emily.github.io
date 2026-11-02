@@ -16,7 +16,7 @@ cv_file: ""         # e.g. /static/MaiKhanhDo_CV.pdf  (copy the PDF into static/
 # Set it after the first deploy, e.g. https://your-handle.github.io
 url: "https://maikhanh-emily.github.io"
 
-portrait: /static/portrait.jpg
+portrait: /static/portrait-cut.webp
 og_image: /static/og-image.jpg
 default_lang: en          # served at the site root
 languages: [en, vi]       # every other language is served under /<lang>/
