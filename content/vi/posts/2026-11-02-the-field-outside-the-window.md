@@ -20,9 +20,9 @@ Trong khi đó, mùa hè năm ấy ở nhà lại khác. Từ cuối tháng 5 đ
 
 ## Câu hỏi sau chuyến tàu
 
-Điều khiến mình suy nghĩ không hẳn là những tấm pin, mà là câu chuyện phía sau chúng. Công nghệ cho chuyển dịch năng lượng thật ra đã có sẵn. Một dự án xanh có được xây dựng hay chỉ nằm trên giấy, phần lớn phụ thuộc vào bài toán tài chính.
+Điều khiến mình suy nghĩ không hẳn là những tấm pin, mà là câu chuyện phía sau chúng. Công nghệ cho chuyển dịch năng lượng thật ra đã có sẵn. Một dự án xanh có được khởi công hay chỉ nằm trên giấy tờ, phần lớn phụ thuộc vào bài toán tài chính.
 
-Sau này mình mới biết, Việt Nam cũng là một ví dụ như vậy. Nước mình cũng có nhiều cánh đồng pin mặt trời, chủ yếu ở duyên hải Nam Trung Bộ, cách xa Hà Nội. Giá mua điện ưu đãi (feed-in tariff) đã thu hút khoảng 9 GW chỉ trong năm 2020. Đến cuối năm đó, cơ chế này kết thúc, và lưới điện ở các tỉnh này không truyền tải hết lượng điện đã xây. Vấn đề không nằm ở kỹ thuật, mà ở giá điện và lưới điện.
+Sau này mình mới rõ Việt Nam cũng là một minh chứng điển hình. Nước mình cũng có nhiều cánh đồng pin mặt trời, chủ yếu ở duyên hải Nam Trung Bộ, cách xa Hà Nội. Giá mua điện ưu đãi (feed-in tariff) đã thu hút khoảng 9 GW chỉ trong năm 2020. Đến cuối năm đó, cơ chế này kết thúc, và lưới điện ở các tỉnh này không truyền tải hết lượng điện đã xây. Vấn đề không nằm ở kỹ thuật, mà ở giá điện và lưới điện.
 
 ## Nhìn lại
 
@@ -40,6 +40,6 @@ Vậy nên mình nghĩ câu chuyện này là thật. Mình sang Đức một h�
 
 Dần dần, mối quan tâm của mình thu hẹp lại. Phát triển bền vững là điểm bắt đầu, còn năng lượng là lĩnh vực mình muốn theo lâu dài, vì đây là nơi có những quyết định đầu tư lớn nhất trong hai mươi năm tới, và những quyết định đó thường được thông qua hoặc bị chặn ở khâu thương mại. Đó cũng là lý do mình học tài chính chứ không học kỹ thuật.
 
-Nước Đức rồi cũng quay lại trong công việc của mình. [Luận văn thạc sĩ](/vi/projects/thesis-climate-risk-germany/) mình đang làm cùng một bạn học xây dựng chỉ số đo mức độ quan tâm tới rủi ro khí hậu từ mười năm báo chí Đức, rồi xem nó ảnh hưởng thế nào đến giá cổ phiếu Đức. Tiếng Đức của mình vẫn ở mức cơ bản, may là mô hình không cần mình đọc hết.
+Nước Đức rồi cũng quay lại trong công việc của mình. [Luận văn thạc sĩ](/vi/projects/thesis-climate-risk-germany/) mình đang làm cùng một bạn học xây dựng chỉ số đo mức độ quan tâm tới rủi ro khí hậu từ mười năm báo chí Đức, rồi xem nó ảnh hưởng thế nào đến giá cổ phiếu Đức. Tiếng Đức của mình vẫn ở mức cơ bản, may là mô hình không bắt buộc mình cần hiểu hết.
 
 Đến giờ mình vẫn không biết chính xác cánh đồng đó nằm ở đâu, hay ai đã đầu tư xây nó. Nhưng bây giờ, câu hỏi thứ hai mới là điều mình muốn biết trước.
