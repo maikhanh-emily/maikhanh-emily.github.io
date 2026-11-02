@@ -9,6 +9,7 @@ tags: [Lãnh đạo, Gây quỹ]
 featured: false
 order: 8
 summary: Các giải đấu của câu lạc bộ cần tiền. Tôi chào các sự kiện tới doanh nghiệp địa phương và mang về khoảng 20 triệu đồng tài trợ tiền mặt. Đoàn Thanh niên trường ghi nhận ban với thành tích xuất sắc.
+art_caption: "Giải đấu tốn tiền: doanh nghiệp địa phương tài trợ khoảng 20 triệu đồng tiền mặt, đủ để chạy chương trình."
 ---
 ## Đó là gì
 

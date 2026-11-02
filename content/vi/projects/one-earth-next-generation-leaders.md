@@ -10,6 +10,7 @@ featured: false
 order: 5
 status: Thắng cuộc
 summary: Được chọn từ hơn 100 ứng viên khắp châu Á – Thái Bình Dương để đại diện Việt Nam. Đội khu vực sáu người của chúng tôi thiết kế một mô hình sản xuất thực phẩm tuần hoàn, và thắng.
+art_caption: "Khép vòng giữa canh tác, chế biến và chất thải: bài toán mà đội sáu người từ sáu quốc gia của chúng tôi đã giải."
 ---
 ## Chương trình
 

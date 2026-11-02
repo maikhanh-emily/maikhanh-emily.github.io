@@ -1,0 +1,33 @@
+<svg class="art art--sage" viewBox="0 0 640 320" aria-hidden="true" focusable="false">
+<rect x="0" y="0" width="640" height="320" fill="var(--a-bg)"/>
+<circle cx="176" cy="170" r="150" fill="var(--a-sh)"/>
+<path d="M122 138 L70 168" fill="none" stroke="var(--a-w)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="168" r="13" fill="var(--a-w)"/>
+<circle cx="66" cy="164" r="3.6" fill="var(--a-w2)"/>
+<path d="M230 138 L282 168" fill="none" stroke="var(--a-w)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="282" cy="168" r="13" fill="var(--a-w)"/>
+<circle cx="278" cy="164" r="3.6" fill="var(--a-w2)"/>
+<path d="M150 238 L104 262" fill="none" stroke="var(--a-w)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="104" cy="262" r="13" fill="var(--a-w)"/>
+<circle cx="100" cy="258" r="3.6" fill="var(--a-w2)"/>
+<path d="M202 238 L248 262" fill="none" stroke="var(--a-w)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="248" cy="262" r="13" fill="var(--a-w)"/>
+<circle cx="244" cy="258" r="3.6" fill="var(--a-w2)"/>
+<path d="M157 160 L94 62" fill="none" stroke="var(--a-1)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M195 160 L258 62" fill="none" stroke="var(--a-1)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M126 142 L66 84" fill="none" stroke="var(--a-2)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M226 142 L286 84" fill="none" stroke="var(--a-2)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M157 196 L157 288" fill="none" stroke="var(--a-1)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M195 196 L195 288" fill="none" stroke="var(--a-2)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M157 162 V192 M195 162 V192 M157 176 H195" fill="none" stroke="var(--a-ink)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M360 288 H618" fill="none" stroke="var(--a-2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M392 256 C420 244 432 226 448 214 S492 180 508 168" fill="none" stroke="var(--a-1)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 7"/>
+<circle cx="392" cy="256" r="9" fill="var(--a-2)"/>
+<circle cx="448" cy="214" r="14" fill="var(--a-2)"/>
+<circle cx="508" cy="168" r="20" fill="var(--a-1)"/>
+<path d="M566 132 V288" fill="none" stroke="var(--a-ink)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 8"/>
+<path d="M522 150 C530 124 538 108 548 96" fill="none" stroke="var(--a-w)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="558,84 541,92 553,103" fill="var(--a-w)"/>
+<circle cx="584" cy="58" r="40" fill="var(--a-1)"/>
+<circle cx="584" cy="58" r="15" fill="var(--a-w)"/>
+</svg>

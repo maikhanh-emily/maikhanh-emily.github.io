@@ -10,6 +10,7 @@ featured: true
 order: 2
 status: Đang thực hiện, nộp tháng 4/2027
 summary: Tin tức về rủi ro khí hậu có làm cổ phiếu Đức dịch chuyển không? Để trả lời, chúng tôi xây một chỉ số hằng ngày về mức độ chú ý tới rủi ro khí hậu từ mười năm báo chí Đức. Hóa ra đường ống dữ liệu chiếm phần lớn công việc.
+art_caption: "Từ khoảng 1,1 triệu bản ghi tin tức còn khoảng 27.000 bài, rồi thành một chỉ số hằng ngày về mức chú ý tới rủi ro vật lý và rủi ro chuyển dịch, đặt cạnh giá cổ phiếu. Đây là sơ đồ minh họa, chưa phải kết quả."
 ---
 ## Câu hỏi
 

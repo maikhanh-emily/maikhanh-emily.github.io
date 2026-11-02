@@ -1,0 +1,54 @@
+<svg class="art art--sand" viewBox="0 0 640 320" aria-hidden="true" focusable="false">
+<rect x="0" y="0" width="640" height="320" fill="var(--a-bg)"/>
+<circle cx="320" cy="118" r="112" fill="var(--a-sh)"/>
+<path d="M102 44 H158 V100 H102 M102 156 H158 V212 H102 M158 72 H228 V184 H158 M228 128 H272" fill="none" stroke="var(--a-1)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="30" y="29" width="72" height="30" rx="15" fill="var(--a-p)"/>
+<circle cx="46" cy="44" r="8" fill="var(--a-1)"/>
+<rect x="60" y="41" width="32" height="6" rx="3" fill="var(--a-pl)"/>
+<rect x="30" y="85" width="72" height="30" rx="15" fill="var(--a-p)"/>
+<circle cx="46" cy="100" r="8" fill="var(--a-pw)"/>
+<rect x="60" y="97" width="32" height="6" rx="3" fill="var(--a-pl)"/>
+<rect x="30" y="141" width="72" height="30" rx="15" fill="var(--a-p)"/>
+<circle cx="46" cy="156" r="8" fill="var(--a-2)"/>
+<rect x="60" y="153" width="32" height="6" rx="3" fill="var(--a-pl)"/>
+<rect x="30" y="197" width="72" height="30" rx="15" fill="var(--a-p)"/>
+<circle cx="46" cy="212" r="8" fill="var(--a-1)"/>
+<rect x="60" y="209" width="32" height="6" rx="3" fill="var(--a-pl)"/>
+<path d="M538 44 H482 V100 H538 M538 156 H482 V212 H538 M482 72 H412 V184 H482 M412 128 H368" fill="none" stroke="var(--a-1)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="538" y="29" width="72" height="30" rx="15" fill="var(--a-p)"/>
+<circle cx="594" cy="44" r="8" fill="var(--a-1)"/>
+<rect x="548" y="41" width="32" height="6" rx="3" fill="var(--a-pl)"/>
+<rect x="538" y="85" width="72" height="30" rx="15" fill="var(--a-p)"/>
+<circle cx="594" cy="100" r="8" fill="var(--a-2)"/>
+<rect x="548" y="97" width="32" height="6" rx="3" fill="var(--a-pl)"/>
+<rect x="538" y="141" width="72" height="30" rx="15" fill="var(--a-p)"/>
+<circle cx="594" cy="156" r="8" fill="var(--a-pw)"/>
+<rect x="548" y="153" width="32" height="6" rx="3" fill="var(--a-pl)"/>
+<rect x="538" y="197" width="72" height="30" rx="15" fill="var(--a-p)"/>
+<circle cx="594" cy="212" r="8" fill="var(--a-1)"/>
+<rect x="548" y="209" width="32" height="6" rx="3" fill="var(--a-pl)"/>
+<path d="M102 100 H158 V72 H228 V128 H272" fill="none" stroke="var(--a-w)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292 88 H274 C274 108 282 116 296 118 M348 88 H366 C366 108 358 116 344 118" fill="none" stroke="var(--a-w)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M292 76 H348 V104 C348 126 334 138 320 138 C306 138 292 126 292 104 Z" fill="var(--a-w)"/>
+<rect x="314" y="137" width="12" height="20" fill="var(--a-w)"/>
+<rect x="298" y="156" width="44" height="10" rx="3" fill="var(--a-w)"/>
+<polygon points="320,91 323.2,99.6 332.4,100 325.2,105.7 327.6,114.5 320,109.5 312.4,114.5 314.8,105.7 307.6,100 316.8,99.6" fill="var(--a-p)"/>
+<path d="M320 232 V186" fill="none" stroke="var(--a-1)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 8"/>
+<polygon points="320,174 312,188 328,188" fill="var(--a-1)"/>
+<ellipse cx="262" cy="298" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="262" cy="288.5" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="262" cy="279" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="262" cy="279" rx="15" ry="4.2" fill="var(--a-w2)"/>
+<ellipse cx="378" cy="298" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="378" cy="288.5" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="378" cy="279" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="378" cy="269.5" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="378" cy="269.5" rx="15" ry="4.2" fill="var(--a-w2)"/>
+<ellipse cx="320" cy="298" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="320" cy="288.5" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="320" cy="279" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="320" cy="269.5" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="320" cy="260" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="320" cy="250.5" rx="25" ry="8" fill="var(--a-w)" stroke="var(--a-bg)" stroke-width="1.6"/>
+<ellipse cx="320" cy="250.5" rx="15" ry="4.2" fill="var(--a-w2)"/>
+</svg>

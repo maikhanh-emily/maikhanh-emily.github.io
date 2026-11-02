@@ -16,8 +16,7 @@ hero:
   lede: Tôi làm việc ở điểm mà phân tích phải trở thành quyết định. Business case, hồ sơ xin tài trợ, số liệu carbon phải đứng vững trước kiểm toán, và những ứng dụng nội bộ nhỏ giúp cả nhóm làm việc minh bạch.
   location: Bergen và Oslo, Na Uy
   buttons:
-    email: Email
-    linkedin: LinkedIn
+    linkedin: Kết nối qua LinkedIn
     github: GitHub
     cv: CV
     vcard: Lưu danh bạ
@@ -74,4 +73,4 @@ labels:
   filter_all: Tất cả
 
 contact:
-  text: Nếu bạn đang tuyển cho 2027, làm về tài chính khí hậu hay năng lượng, hoặc chỉ muốn trao đổi, hãy viết cho tôi. Tôi luôn trả lời.
+  text: Nếu bạn đang tuyển cho 2027, làm về tài chính khí hậu hay năng lượng, hoặc chỉ muốn trao đổi, hãy nhắn cho tôi qua LinkedIn. Tôi luôn trả lời.

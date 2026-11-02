@@ -10,6 +10,7 @@ featured: false
 order: 9
 status: In progress, due November 2026
 summary: "A group paper on the financing environment a new oncology venture would face. My half maps antibody-drug conjugates: who funds them, at which stage, and how they exit."
+art_caption: "An antibody carrying drug payloads on linkers. For a seed-stage venture the realistic exit is an acquisition before Phase 1, the dotted line."
 ---
 ## The assignment
 

@@ -10,6 +10,7 @@ featured: true
 order: 3
 status: Final paper, December 2026
 summary: The EU's Carbon Border Adjustment Mechanism replaces free emission allowances with a carbon price at the border. We tested it against the energy trilemma and proposed four fixes for its weakest points.
+art_caption: "Imports pay for their embedded carbon at the EU border. We traced what that does to decarbonisation, affordability and security of supply."
 ---
 ## What CBAM is
 

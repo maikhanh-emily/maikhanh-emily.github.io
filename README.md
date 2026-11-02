@@ -32,7 +32,9 @@ Nội dung viết bằng Markdown. Có thể dùng **đậm**, *nghiêng*, danh 
 
 Thêm `draft: true` nếu chưa muốn đăng (bài sẽ không được build khi push). Thêm `project: ten-du-an` để bài tự liên kết tới trang dự án.
 
-**Thêm dự án.** Tạo `content/en/projects/ten-du-an.md` và, nếu muốn, `content/vi/projects/ten-du-an.md` cùng tên file. Thiếu bản tiếng Việt thì site tự hiện bản tiếng Anh kèm một dòng báo. Các trường ở đầu file: `title`, `subtitle`, `period`, `year`, `role`, `org`, `tags`, `featured` (true thì lên trang chủ), `order` (thứ tự), `status`, `summary`.
+**Thêm dự án.** Tạo `content/en/projects/ten-du-an.md` và, nếu muốn, `content/vi/projects/ten-du-an.md` cùng tên file. Thiếu bản tiếng Việt thì site tự hiện bản tiếng Anh kèm một dòng báo. Các trường ở đầu file: `title`, `subtitle`, `period`, `year`, `role`, `org`, `tags`, `featured` (true thì lên trang chủ), `order` (thứ tự), `status`, `summary`, `art_caption` (chú thích dưới hình minh họa).
+
+**Minh họa cho dự án.** Thêm một file `content/illustrations/ten-du-an.svg`, cùng tên với file dự án, dùng chung cho cả hai ngôn ngữ. Hình sẽ tự hiện trên thẻ dự án và ở đầu trang dự án. Không có file SVG thì thẻ chỉ hiện chữ. Màu trong SVG dùng các biến `--a-*` trong `static/style.css`, nên tự đổi theo chế độ sáng/tối.
 
 **Sửa danh thiếp, kinh nghiệm, học vấn, kỹ năng.** Mỗi ngôn ngữ có một thư mục `content/<lang>/` với `strings.yml` (chữ trên giao diện và phần danh thiếp), `experience.yml`, `education.yml`, `recognition.yml`, `skills.yml`, `about.md`, `now.md`.
 
@@ -63,7 +65,7 @@ If you'd rather keep the repository under another name (say `portfolio`), the si
 ## How it's built
 
 ```
-site.yml                shared settings: name, email, links, portrait, languages
+site.yml                shared settings: name, links, portrait, languages
 content/<lang>/         everything a reader sees, one folder per language
   strings.yml           interface text, hero and card
   about.md, now.md      the About section and the Now page
@@ -73,6 +75,7 @@ content/<lang>/         everything a reader sees, one folder per language
   skills.yml            skill chips
   projects/*.md         one file per project, same filename across languages
   posts/YYYY-MM-DD-*.md blog posts
+content/illustrations/  one SVG per project, same filename as the project, shared across languages
 templates/              Jinja2 templates (base, index, projects, project, blog, post, page, tag, 404)
 static/                 style.css, main.js, favicon.svg, portrait.jpg, og-image.jpg
 build.py                the whole build: Markdown + YAML → dist/
@@ -86,5 +89,6 @@ Requirements: Python 3.10+, `pip install -r requirements.txt` (markdown, Jinja2,
 ## Content rules worth keeping
 
 - Nothing from Planck's pipeline, customers, investors or funding status goes on the site. Architecture, approach and round-number scale are fine.
-- No phone number, address or student numbers. The email is the only contact detail.
+- No phone number, address, student numbers or email address. LinkedIn is the only contact route, because anything printed on a public page gets harvested for spam and scams.
+- Illustrations are schematic. No real pipeline data, and nothing that suggests a result a project hasn't reached.
 - Posts marked `draft: true` never reach the public build. Only `python build.py --drafts` on your own machine shows them.

@@ -9,6 +9,7 @@ tags: [Sustainability, CSRD, Consulting]
 featured: false
 order: 6
 summary: Several client companies, a new reporting regime, and data scattered across entities. I coordinated the carbon-accounting rollout and checked disclosures against CSRD, GRI and IFRS S1/S2.
+art_caption: "Data scattered across entities on one side, one set of numbers you could defend to an auditor on the other."
 ---
 ## The setting
 

@@ -1,0 +1,82 @@
+<svg class="art art--deep" viewBox="0 0 640 320" aria-hidden="true" focusable="false">
+<rect x="0" y="0" width="640" height="320" fill="var(--a-bg)"/>
+<circle cx="112" cy="160" r="178" fill="var(--a-sh)"/>
+<defs><g id="th-doc"><rect x="-11" y="-14" width="22" height="28" rx="3" fill="var(--a-1)"/><rect x="-7" y="-9" width="14" height="3" fill="var(--a-bg)"/><rect x="-7" y="-3" width="14" height="2" fill="var(--a-2)"/><rect x="-7" y="2" width="14" height="2" fill="var(--a-2)"/><rect x="-7" y="7" width="9" height="2" fill="var(--a-2)"/></g></defs>
+<use href="#th-doc" transform="translate(29.1 31.1) rotate(14.4)"/>
+<use href="#th-doc" transform="translate(30.1 73.6) rotate(-10.7)"/>
+<use href="#th-doc" transform="translate(32.3 119.3) rotate(-13.8)"/>
+<rect x="-11" y="-14" width="22" height="28" rx="3" fill="none" stroke="var(--a-2)" stroke-width="1.5" stroke-dasharray="3 3" transform="translate(22.6 161.6) rotate(6.6)"/>
+<use href="#th-doc" transform="translate(38.7 206.4) rotate(5.2)"/>
+<rect x="-11" y="-14" width="22" height="28" rx="3" fill="none" stroke="var(--a-2)" stroke-width="1.5" stroke-dasharray="3 3" transform="translate(23.8 231.3) rotate(1)"/>
+<use href="#th-doc" transform="translate(24.4 281.4) rotate(-16)"/>
+<use href="#th-doc" transform="translate(66.9 36.2) rotate(0.7)"/>
+<use href="#th-doc" transform="translate(68 74.9) rotate(-1.5)"/>
+<use href="#th-doc" transform="translate(77 122.9) rotate(11.6)"/>
+<rect x="-11" y="-14" width="22" height="28" rx="3" fill="none" stroke="var(--a-2)" stroke-width="1.5" stroke-dasharray="3 3" transform="translate(64.7 151.1) rotate(-7.2)"/>
+<use href="#th-doc" transform="translate(72.8 196.2) rotate(11.8)"/>
+<rect x="-11" y="-14" width="22" height="28" rx="3" fill="none" stroke="var(--a-2)" stroke-width="1.5" stroke-dasharray="3 3" transform="translate(76.2 246.3) rotate(-17)"/>
+<use href="#th-doc" transform="translate(75.4 285.5) rotate(16.3)"/>
+<use href="#th-doc" transform="translate(98.3 32.3) rotate(9.5)"/>
+<use href="#th-doc" transform="translate(98.6 69) rotate(15.8)"/>
+<rect x="-11" y="-14" width="22" height="28" rx="3" fill="none" stroke="var(--a-2)" stroke-width="1.5" stroke-dasharray="3 3" transform="translate(99.1 109.4) rotate(-13.6)"/>
+<use href="#th-doc" transform="translate(111.3 150.2) rotate(2)"/>
+<use href="#th-doc" transform="translate(100.4 202.2) rotate(-12.5)"/>
+<use href="#th-doc" transform="translate(99.1 238.6) rotate(-9.8)"/>
+<use href="#th-doc" transform="translate(114.5 291.5) rotate(-6.7)"/>
+<use href="#th-doc" transform="translate(138.8 28.1) rotate(12)"/>
+<use href="#th-doc" transform="translate(136.8 80.8) rotate(-9.7)"/>
+<rect x="-11" y="-14" width="22" height="28" rx="3" fill="none" stroke="var(--a-2)" stroke-width="1.5" stroke-dasharray="3 3" transform="translate(148.9 110.9) rotate(-6.9)"/>
+<use href="#th-doc" transform="translate(136.6 157.5) rotate(-8.7)"/>
+<use href="#th-doc" transform="translate(141.7 197.2) rotate(15.6)"/>
+<rect x="-11" y="-14" width="22" height="28" rx="3" fill="none" stroke="var(--a-2)" stroke-width="1.5" stroke-dasharray="3 3" transform="translate(145.3 246.6) rotate(-10.8)"/>
+<rect x="-11" y="-14" width="22" height="28" rx="3" fill="none" stroke="var(--a-2)" stroke-width="1.5" stroke-dasharray="3 3" transform="translate(151.4 291.7) rotate(-8.5)"/>
+<use href="#th-doc" transform="translate(186.3 37.9) rotate(-10.3)"/>
+<rect x="-11" y="-14" width="22" height="28" rx="3" fill="none" stroke="var(--a-2)" stroke-width="1.5" stroke-dasharray="3 3" transform="translate(188.9 73.9) rotate(-2.7)"/>
+<use href="#th-doc" transform="translate(173.7 122.3) rotate(-8.9)"/>
+<use href="#th-doc" transform="translate(177.6 161.8) rotate(3.3)"/>
+<rect x="-11" y="-14" width="22" height="28" rx="3" fill="none" stroke="var(--a-2)" stroke-width="1.5" stroke-dasharray="3 3" transform="translate(176.2 202) rotate(-14.7)"/>
+<use href="#th-doc" transform="translate(183.1 246.3) rotate(3.9)"/>
+<use href="#th-doc" transform="translate(189.5 280.7) rotate(-16.4)"/>
+<polygon points="216,36 216,284 346,176 346,144" fill="var(--a-3)" stroke="var(--a-1)" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M260 74 V246 M304 110 V210" fill="none" stroke="var(--a-1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 7"/>
+<circle cx="360" cy="160" r="3.5" fill="var(--a-w2)"/>
+<circle cx="374" cy="160" r="3.5" fill="var(--a-w2)"/>
+<circle cx="388" cy="160" r="3.5" fill="var(--a-w2)"/>
+<path d="M402 62 V276 H618" fill="none" stroke="var(--a-2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M416 238.5 V248.1" fill="none" stroke="var(--a-2)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="412" y="241.8" width="8" height="2.5" rx="1.2" fill="var(--a-2)"/>
+<path d="M432.2 230.8 V245.6" fill="none" stroke="var(--a-2)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="428.2" y="237.2" width="8" height="4.6" rx="1.2" fill="var(--a-2)"/>
+<path d="M448.4 224.1 V246.1" fill="none" stroke="var(--a-2)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="444.4" y="232.5" width="8" height="4.8" rx="1.2" fill="var(--a-2)"/>
+<path d="M464.6 225.3 V243.3" fill="none" stroke="var(--a-3)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="460.6" y="232.5" width="8" height="4.4" rx="1.2" fill="var(--a-3)"/>
+<path d="M480.8 222 V239.9" fill="none" stroke="var(--a-2)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="476.8" y="225.2" width="8" height="11.6" rx="1.2" fill="var(--a-2)"/>
+<path d="M497 218 V246.2" fill="none" stroke="var(--a-3)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="493" y="225.2" width="8" height="12.2" rx="1.2" fill="var(--a-3)"/>
+<path d="M513.2 215.2 V243.3" fill="none" stroke="var(--a-2)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="509.2" y="222.1" width="8" height="15.3" rx="1.2" fill="var(--a-2)"/>
+<path d="M529.4 217.2 V237.7" fill="none" stroke="var(--a-3)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="525.4" y="222.1" width="8" height="6.6" rx="1.2" fill="var(--a-3)"/>
+<path d="M545.6 208.8 V236.1" fill="none" stroke="var(--a-2)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="541.6" y="215" width="8" height="13.7" rx="1.2" fill="var(--a-2)"/>
+<path d="M561.8 214.6 V241.1" fill="none" stroke="var(--a-3)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="557.8" y="222" width="8" height="11.9" rx="1.2" fill="var(--a-3)"/>
+<path d="M578 225.4 V247.6" fill="none" stroke="var(--a-3)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="574" y="233.9" width="8" height="8.6" rx="1.2" fill="var(--a-3)"/>
+<path d="M594.2 234.1 V256" fill="none" stroke="var(--a-3)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="590.2" y="242.5" width="8" height="5.2" rx="1.2" fill="var(--a-3)"/>
+<path d="M610.4 236.9 V255.9" fill="none" stroke="var(--a-2)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="606.4" y="244.7" width="8" height="3.1" rx="1.2" fill="var(--a-2)"/>
+<path d="M404 232.4 L409 232.8 L414 230.7 L419 232 L424 231.8 L429 226.9 L434 230.3 L439 231.3 L444 227.3 L449 221.1 L454 210.1 L459 199.2 L464 175.5 L469 137.4 L474 164.9 L479 186.3 L484 208.2 L489 212.4 L494 223 L499 225.5 L504 225.4 L509 230 L514 228.3 L519 228.4 L524 229 L529 220.5 L534 213.2 L539 207.2 L544 197 L549 172.2 L554 139 L559 116.5 L564 157.9 L569 183.7 L574 204.8 L579 211.3 L584 221.1 L589 221.8 L594 226.5 L599 231.3 L604 233.3 L609 233.8 L614 230.3 L614 276 L404 276 Z" fill="var(--a-w)" opacity="0.2"/>
+<path d="M404 232.4 L409 232.8 L414 230.7 L419 232 L424 231.8 L429 226.9 L434 230.3 L439 231.3 L444 227.3 L449 221.1 L454 210.1 L459 199.2 L464 175.5 L469 137.4 L474 164.9 L479 186.3 L484 208.2 L489 212.4 L494 223 L499 225.5 L504 225.4 L509 230 L514 228.3 L519 228.4 L524 229 L529 220.5 L534 213.2 L539 207.2 L544 197 L549 172.2 L554 139 L559 116.5 L564 157.9 L569 183.7 L574 204.8 L579 211.3 L584 221.1 L589 221.8 L594 226.5 L599 231.3 L604 233.3 L609 233.8 L614 230.3" fill="none" stroke="var(--a-w)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M470 99 V116" fill="none" stroke="var(--a-w2)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 5"/>
+<circle cx="470" cy="72" r="24" fill="var(--a-sh)" stroke="var(--a-2)" stroke-width="2"/>
+<path d="M558 77 V94" fill="none" stroke="var(--a-w2)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 5"/>
+<circle cx="558" cy="50" r="24" fill="var(--a-sh)" stroke="var(--a-2)" stroke-width="2"/>
+<path d="M457 71 q6.5 -7 13 0 t13 0 M457 80 q6.5 -7 13 0 t13 0" fill="none" stroke="var(--a-ink)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M470 55 C474 60 474 64 470 64 C466 64 466 60 470 55 Z" fill="var(--a-ink)"/>
+<polygon points="545,62 545,51 553,56 553,51 561,56 561,39 567,39 567,62" fill="var(--a-ink)"/>
+<circle cx="565" cy="34" r="2.6" fill="var(--a-ink)"/>
+</svg>

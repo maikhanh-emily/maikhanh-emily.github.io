@@ -1,0 +1,25 @@
+<svg class="art art--sand" viewBox="0 0 640 320" aria-hidden="true" focusable="false">
+<rect x="0" y="0" width="640" height="320" fill="var(--a-bg)"/>
+<circle cx="316" cy="124" r="64" fill="var(--a-w2)" opacity="0.6"/>
+<circle cx="316" cy="124" r="46" fill="var(--a-w)"/>
+<g transform="translate(398 172) scale(0.36)"><polygon points="-2.2,0 2.2,0 5,150 -5,150" fill="var(--a-1)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(40)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(160)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(280)"/><circle cx="0" cy="0" r="5" fill="var(--a-1)"/><rect x="-8" y="142" width="16" height="10" rx="1.5" fill="var(--a-w)"/></g>
+<g transform="translate(306 153) scale(0.5)"><polygon points="-2.2,0 2.2,0 5,150 -5,150" fill="var(--a-1)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(8)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(128)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(248)"/><circle cx="0" cy="0" r="5" fill="var(--a-1)"/><rect x="-8" y="142" width="16" height="10" rx="1.5" fill="var(--a-w)"/></g>
+<path d="M-108 230 Q-78.5 224 -49 230 T10 230 T69 230 T128 230 T187 230 T246 230 T305 230 T364 230 T423 230 T482 230 T541 230 T600 230 T659 230 L659 320 L-108 320 Z" fill="var(--a-3)"/>
+<g transform="translate(214 148) scale(0.72)"><polygon points="-2.2,0 2.2,0 5,150 -5,150" fill="var(--a-1)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(28)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(148)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(268)"/><circle cx="0" cy="0" r="5" fill="var(--a-1)"/><rect x="-8" y="142" width="16" height="10" rx="1.5" fill="var(--a-w)"/></g>
+<path d="M-90 258 Q-52.5 251 -15 258 T60 258 T135 258 T210 258 T285 258 T360 258 T435 258 T510 258 T585 258 T660 258 L660 320 L-90 320 Z" fill="var(--a-2)"/>
+<g transform="translate(106 136) scale(1.0)"><polygon points="-2.2,0 2.2,0 5,150 -5,150" fill="var(--a-1)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(16)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(136)"/><path d="M-1.6 0 C-7 -12 -6 -22 -3.4 -38 L-.2 -104 L1.6 -38 C3 -22 3 -10 1.6 0 Z" fill="var(--a-1)" transform="rotate(256)"/><circle cx="0" cy="0" r="5" fill="var(--a-1)"/><rect x="-8" y="142" width="16" height="10" rx="1.5" fill="var(--a-w)"/></g>
+<path d="M-170 288 Q-122.5 280 -75 288 T20 288 T115 288 T210 288 T305 288 T400 288 T495 288 T590 288 T685 288 L685 320 L-170 320 Z" fill="var(--a-sea)"/>
+<path d="M106 306 C210 298 300 314 420 306 S570 300 640 308" fill="none" stroke="var(--a-w2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 7"/>
+<rect x="478" y="32" width="138" height="112" rx="10" fill="var(--a-pi)" opacity="0.1"/>
+<rect x="472" y="26" width="138" height="112" rx="10" fill="var(--a-p)"/>
+<rect x="486" y="122" width="110" height="1.5" fill="var(--a-pl)"/>
+<rect x="488" y="96" width="17" height="26" rx="2" fill="var(--a-pc1)"/>
+<rect x="505" y="96" width="5" height="1" fill="var(--a-pl)"/>
+<rect x="510" y="74" width="17" height="22" rx="2" fill="var(--a-pc2)"/>
+<rect x="527" y="74" width="5" height="1" fill="var(--a-pl)"/>
+<rect x="532" y="58" width="17" height="16" rx="2" fill="var(--a-pc2)"/>
+<rect x="549" y="58" width="5" height="1" fill="var(--a-pl)"/>
+<rect x="554" y="46" width="17" height="12" rx="2" fill="var(--a-pc3)"/>
+<rect x="571" y="46" width="5" height="1" fill="var(--a-pl)"/>
+<rect x="576" y="46" width="17" height="76" rx="2" fill="var(--a-pw)"/>
+</svg>

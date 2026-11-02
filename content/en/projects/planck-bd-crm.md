@@ -10,6 +10,7 @@ featured: true
 order: 1
 status: In daily use
 summary: Planck's commercial pipeline lived in a spreadsheet. I built the web application that replaced it, with Claude Code and no engineering resource. The team works from it every day.
+art_caption: "A schematic of the pipeline board: companies move through stages, each with a fit score, and a status line confirms every save. No real data."
 ---
 ## The problem
 

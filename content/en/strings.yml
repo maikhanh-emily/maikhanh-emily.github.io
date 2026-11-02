@@ -16,8 +16,7 @@ hero:
   lede: I work where analysis has to become a decision. Business cases, funding applications, carbon numbers that have to hold up, and the small internal apps that keep a team honest.
   location: Bergen and Oslo, Norway
   buttons:
-    email: Email
-    linkedin: LinkedIn
+    linkedin: Connect on LinkedIn
     github: GitHub
     cv: CV
     vcard: Save contact
@@ -74,4 +73,4 @@ labels:
   filter_all: All
 
 contact:
-  text: If you're hiring for 2027, working on climate or energy finance, or just want to compare notes, write to me. I answer.
+  text: If you're hiring for 2027, working on climate or energy finance, or just want to compare notes, message me on LinkedIn. I answer.

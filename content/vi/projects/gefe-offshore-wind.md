@@ -10,6 +10,7 @@ featured: true
 order: 4
 status: Top 9 trong hơn 300 đội
 summary: Trong mười tuần, nhóm chúng tôi xây business case đầu tư cho một dự án điện gió ngoài khơi ở Việt Nam và trình bày trước hội đồng chuyên gia tại Green Economy Forum & Exhibition. Tôi phụ trách phần số liệu.
+art_caption: "Chi phí tua-bin, móng, cáp và lắp đặt cộng lại thành bài toán mà dự án phải giải. Đây là sơ đồ minh họa, không phải số liệu của đội."
 ---
 ## Đề bài
 

@@ -8,4 +8,4 @@ Phần lớn những gì tôi làm vài năm qua nằm trong những file không
 
 Ở đây có ba thứ. **Dự án** là công việc: đã xây, đã viết hoặc đã mô hình hóa, kèm phần tôi thực sự làm và điều tôi sẽ làm khác đi. **Bài viết** là phần suy nghĩ, phần lớn ngắn. **Hiện tại** là tôi đang làm gì mùa này, để bạn không phải đoán từ một bản CV cũ.
 
-Nếu có gì ở đây hữu ích, hoặc sai, hãy viết cho tôi. Email ở trang đầu.
+Nếu có gì ở đây hữu ích, hoặc sai, hãy nói cho tôi biết. Cách tốt nhất là nhắn qua [LinkedIn](https://www.linkedin.com/in/maikhanh-do/).

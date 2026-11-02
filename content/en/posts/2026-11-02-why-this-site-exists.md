@@ -8,4 +8,4 @@ Most of what I've done over the past few years lives in files nobody else sees: 
 
 Three things live here. **Projects** are the work: built, written or modelled, with what I actually did and what I'd do differently. **Writing** is the thinking, mostly short. **Now** is what I'm up to this season, so you don't have to guess from an old CV.
 
-If something here is useful, or wrong, write to me. The email is on the front page.
+If something here is useful, or wrong, tell me. [LinkedIn](https://www.linkedin.com/in/maikhanh-do/) is the best way to reach me.

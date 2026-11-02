@@ -9,6 +9,7 @@ tags: [Bền vững, CSRD, Tư vấn]
 featured: false
 order: 6
 summary: Nhiều doanh nghiệp khách hàng, một chế độ báo cáo mới, và dữ liệu rải rác giữa các pháp nhân. Tôi điều phối việc triển khai kiểm kê carbon và đối chiếu công bố với CSRD, GRI và IFRS S1/S2.
+art_caption: "Một bên là dữ liệu rải rác giữa các pháp nhân, bên kia là một bộ số liệu có thể bảo vệ trước kiểm toán viên."
 ---
 ## Bối cảnh
 

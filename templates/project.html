@@ -13,6 +13,12 @@
     </dl>
     {% if p.tags %}<div class="tags">{% for t in p.tags %}<a class="tag" href="{{ L }}tags/{{ t|slug }}/">{{ t }}</a>{% endfor %}</div>{% endif %}
   </header>
+  {% if p.art %}
+  <figure class="project-art">
+    <div class="frame">{{ p.art|safe }}</div>
+    {% if p.art_caption %}<figcaption>{{ p.art_caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
   {% if p.fallback %}<p class="notice">{{ S.labels.fallback }}</p>{% endif %}
   <div class="prose">{{ p.html|safe }}</div>
   {% if related_posts %}

@@ -10,6 +10,7 @@ featured: false
 order: 5
 status: Winner
 summary: Selected from 100+ applicants across Asia-Pacific to represent Vietnam. Our six-person regional team designed a circular food-production model, and won.
+art_caption: "Closing the loop between farming, processing and waste: the problem our team of six, from six countries, worked on."
 ---
 ## The programme
 

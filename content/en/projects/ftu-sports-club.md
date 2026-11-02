@@ -9,6 +9,7 @@ tags: [Leadership, Fundraising]
 featured: false
 order: 8
 summary: The club's tournaments needed money. I pitched them to local businesses and brought in about 20 million VND in cash sponsorship. The FTU Youth Union recognised the board for outstanding results.
+art_caption: "Tournaments cost money: local sponsors put in about 20 million VND in cash, enough to run the programme."
 ---
 ## What it was
 

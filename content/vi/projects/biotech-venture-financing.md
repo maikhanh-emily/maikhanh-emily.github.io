@@ -10,6 +10,7 @@ featured: false
 order: 9
 status: Đang thực hiện, hạn nộp tháng 11/2026
 summary: "Bài nhóm về môi trường tài trợ vốn mà một công ty ung thư học mới sẽ đối mặt. Nửa của tôi lập bản đồ các thuốc liên hợp kháng thể (ADC): ai tài trợ, ở giai đoạn nào, và họ thoái vốn ra sao."
+art_caption: "Một kháng thể mang các payload thuốc qua linker. Với công ty giai đoạn seed, lối thoái vốn thực tế là được mua lại trước Pha 1, tức đường chấm."
 ---
 ## Đề bài
 

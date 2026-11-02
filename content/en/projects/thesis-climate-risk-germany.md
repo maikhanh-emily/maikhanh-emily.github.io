@@ -10,6 +10,7 @@ featured: true
 order: 2
 status: In progress, submission April 2027
 summary: Does climate-risk news move German stock returns? To find out we're building a daily index of climate-risk attention from ten years of German news. The data pipeline turned out to be most of the work.
+art_caption: "From about 1.1 million news records to about 27,000 articles, then a daily index of attention to physical and transition risk, set against share prices. A schematic, not a result."
 ---
 ## The question
 

@@ -10,6 +10,7 @@ featured: true
 order: 4
 status: Top 9 of 300+ teams
 summary: In ten weeks our team built the investment case for an offshore wind development in Vietnam and presented it to an expert panel at the Green Economy Forum & Exhibition. I owned the numbers.
+art_caption: "Turbine, foundation, cable and installation costs add up to the case the project has to make. A schematic, not the team's figures."
 ---
 ## The brief
 

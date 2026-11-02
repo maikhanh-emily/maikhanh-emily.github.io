@@ -10,6 +10,7 @@ featured: true
 order: 3
 status: Bài cuối kỳ, tháng 12/2026
 summary: Cơ chế điều chỉnh biên giới carbon (CBAM) của EU thay hạn ngạch phát thải miễn phí bằng một mức giá carbon tại biên giới. Chúng tôi kiểm tra nó theo bộ ba năng lượng và đề xuất bốn giải pháp cho những điểm yếu nhất.
+art_caption: "Hàng nhập khẩu trả tiền cho lượng carbon hàm chứa ngay tại biên giới EU. Chúng tôi lần theo tác động của điều đó lên khử carbon, khả năng chi trả và an ninh nguồn cung."
 ---
 ## CBAM là gì
 

@@ -9,6 +9,7 @@ tags: [Research, Trade, Econometrics]
 featured: false
 order: 7
 summary: Did the EU–Vietnam free trade agreement change what Vietnam's fishing industry sells to Europe? An econometric look at bilateral trade flows, selected for presentation at VEAM.
+art_caption: "Tariffs on Vietnamese seafood step down over several years. The paper asks whether exports to the EU responded. A schematic, not the paper's data."
 ---
 ## The question
 

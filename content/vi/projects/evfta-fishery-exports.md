@@ -9,6 +9,7 @@ tags: [Nghiên cứu, Thương mại, Kinh tế lượng]
 featured: false
 order: 7
 summary: Hiệp định thương mại tự do EU – Việt Nam có thay đổi những gì ngành thủy sản Việt Nam bán sang châu Âu không? Một phân tích kinh tế lượng về dòng thương mại song phương, được chọn trình bày tại VEAM.
+art_caption: "Thuế quan với thủy sản Việt Nam giảm dần trong vài năm. Bài nghiên cứu hỏi liệu xuất khẩu sang EU có phản ứng hay không. Đây là sơ đồ minh họa, không phải dữ liệu của bài."
 ---
 ## Câu hỏi
 

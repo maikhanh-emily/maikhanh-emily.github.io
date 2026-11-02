@@ -29,6 +29,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 ROOT = Path(__file__).resolve().parent
 CONTENT = ROOT / "content"
+ART = CONTENT / "illustrations"
 TEMPLATES = ROOT / "templates"
 STATIC = ROOT / "static"
 DIST = ROOT / "dist"
@@ -85,6 +86,12 @@ def format_date(value, lang: str) -> str:
     if lang == "vi":
         return f"{d.day} tháng {d.month}, {d.year}"
     return f"{d.day} {MONTHS_EN[d.month - 1]} {d.year}"
+
+
+def load_art(slug: str) -> str:
+    """A project's illustration, shared across languages. Empty if it has none."""
+    path = ART / f"{slug}.svg"
+    return path.read_text(encoding="utf-8").strip() if path.exists() else ""
 
 
 def word_count(text: str) -> int:
@@ -155,7 +162,7 @@ def load_language(lang: str, include_drafts: bool) -> dict:
     projects = []
     for path in sorted((base / "projects").glob("*.md")):
         meta, body = parse_markdown_file(path)
-        projects.append({**meta, "slug": path.stem, "html": render_markdown(body),
+        projects.append({**meta, "slug": path.stem, "html": render_markdown(body), "art": load_art(path.stem),
                          "tags": meta.get("tags") or [], "lang": lang})
     projects.sort(key=project_sort_key)
     data["projects"] = projects
@@ -250,12 +257,10 @@ def vcard(site: dict, strings: dict) -> str:
     title = (strings.get("hero") or {}).get("title")
     if title:
         lines.append("TITLE:" + title.replace(",", "\\,"))
-    if site.get("email"):
-        lines.append(f"EMAIL;TYPE=INTERNET,PREF:{site['email']}")
+    if site.get("linkedin"):
+        lines.append(f"URL;TYPE=LinkedIn:{site['linkedin']}")
     if site.get("url"):
         lines.append(f"URL:{site['url']}")
-    if site.get("linkedin"):
-        lines.append(f"X-SOCIALPROFILE;TYPE=linkedin:{site['linkedin']}")
     location = (strings.get("hero") or {}).get("location")
     if location:
         lines.append("NOTE:" + location.replace(",", "\\,"))

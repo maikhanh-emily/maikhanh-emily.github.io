@@ -1,0 +1,34 @@
+<svg class="art art--sage" viewBox="0 0 640 320" aria-hidden="true" focusable="false">
+<rect x="0" y="0" width="640" height="320" fill="var(--a-bg)"/>
+<g transform="translate(58 270)"><circle cx="0" cy="-45" r="10" fill="var(--a-1)"/><path d="M-15 0 C-15 -22 -9 -32 0 -32 C9 -32 15 -22 15 0 Z" fill="var(--a-1)"/></g>
+<g transform="translate(112 262)"><circle cx="0" cy="-45" r="10" fill="var(--a-w)"/><path d="M-15 0 C-15 -22 -9 -32 0 -32 C9 -32 15 -22 15 0 Z" fill="var(--a-w)"/></g>
+<g transform="translate(166 268)"><circle cx="0" cy="-45" r="10" fill="var(--a-2)"/><path d="M-15 0 C-15 -22 -9 -32 0 -32 C9 -32 15 -22 15 0 Z" fill="var(--a-2)"/></g>
+<g transform="translate(474 276)"><circle cx="0" cy="-45" r="10" fill="var(--a-1)"/><path d="M-15 0 C-15 -22 -9 -32 0 -32 C9 -32 15 -22 15 0 Z" fill="var(--a-1)"/></g>
+<g transform="translate(528 262)"><circle cx="0" cy="-45" r="10" fill="var(--a-w)"/><path d="M-15 0 C-15 -22 -9 -32 0 -32 C9 -32 15 -22 15 0 Z" fill="var(--a-w)"/></g>
+<g transform="translate(582 256)"><circle cx="0" cy="-45" r="10" fill="var(--a-2)"/><path d="M-15 0 C-15 -22 -9 -32 0 -32 C9 -32 15 -22 15 0 Z" fill="var(--a-2)"/></g>
+<path d="M0 268 C90 246 170 258 250 276 S430 296 520 262 S610 244 640 256 V320 H0 Z" fill="var(--a-3)"/>
+<path d="M0 302 C120 282 220 312 340 300 S540 278 640 302 V320 H0 Z" fill="var(--a-2)"/>
+<path d="M354.2 51.3 A84 84 0 0 1 404 128" fill="none" stroke="var(--a-1)" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round"/>
+<polygon points="404,146.9 418,128 390,128" fill="var(--a-1)"/>
+<path d="M369.4 196 A84 84 0 0 1 278 200.7" fill="none" stroke="var(--a-2)" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round"/>
+<polygon points="261.6,191.3 271,212.9 285,188.6" fill="var(--a-2)"/>
+<path d="M236.5 136.8 A84 84 0 0 1 278 55.3" fill="none" stroke="var(--a-w)" stroke-width="15" stroke-linecap="butt" stroke-linejoin="round"/>
+<polygon points="294.4,45.8 271,43.1 285,67.4" fill="var(--a-w)"/>
+<circle cx="320" cy="128" r="36" fill="var(--a-3)" stroke="var(--a-1)" stroke-width="2.5"/>
+<ellipse cx="320" cy="128" rx="15" ry="36" fill="none" stroke="var(--a-1)" stroke-width="1.6"/>
+<path d="M287 114 H353 M284 128 H356 M287 142 H353 M320 92 V164" fill="none" stroke="var(--a-1)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="320" cy="44" r="27" fill="var(--a-p)" stroke="var(--a-1)" stroke-width="2.5"/>
+<circle cx="392.7" cy="170" r="27" fill="var(--a-p)" stroke="var(--a-1)" stroke-width="2.5"/>
+<circle cx="247.3" cy="170" r="27" fill="var(--a-p)" stroke="var(--a-1)" stroke-width="2.5"/>
+<path d="M308.0 59.0 H332.0" fill="none" stroke="var(--a-pi)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M320.0 59.0 V40.0" fill="none" stroke="var(--a-pc1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M320.0 44.0 C320.0 34.0 309.0 30.0 302.0 30.0 C302.0 40.0 310.0 46.0 320.0 44.0 Z" fill="var(--a-pc1)"/>
+<path d="M320.0 40.0 C320.0 30.0 331.0 26.0 338.0 26.0 C338.0 36.0 330.0 42.0 320.0 40.0 Z" fill="var(--a-pc2)"/>
+<rect x="381.7" y="161" width="22" height="24" rx="4" fill="var(--a-pc2)"/>
+<rect x="379.7" y="155" width="26" height="6.5" rx="2" fill="var(--a-pc1)"/>
+<rect x="386.2" y="169" width="13" height="8" rx="1.5" fill="var(--a-p)"/>
+<path d="M229.25386608210718 184.00000000000003 C233.25386608210718 167.00000000000003 242.25386608210718 159.00000000000003 247.25386608210718 159.00000000000003 C252.25386608210718 159.00000000000003 261.25386608210715 167.00000000000003 265.25386608210715 184.00000000000003 Z" fill="var(--a-pw)"/>
+<circle cx="242.3" cy="175" r="2.2" fill="var(--a-p)"/>
+<circle cx="253.3" cy="178" r="2.2" fill="var(--a-p)"/>
+<circle cx="248.3" cy="168" r="1.8" fill="var(--a-p)"/>
+</svg>

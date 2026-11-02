@@ -11,8 +11,7 @@
           <p class="title">{{ S.hero.title }}</p>
           <p class="lede">{{ S.hero.lede }}</p>
           <div class="actions">
-            <a class="btn primary" href="mailto:{{ site.email }}">{{ S.hero.buttons.email }}</a>
-            {% if site.linkedin %}<a class="btn" href="{{ site.linkedin }}">{{ S.hero.buttons.linkedin }}</a>{% endif %}
+            {% if site.linkedin %}<a class="btn primary" href="{{ site.linkedin }}">{{ S.hero.buttons.linkedin }}</a>{% endif %}
             {% if site.github %}<a class="btn" href="{{ site.github }}">{{ S.hero.buttons.github }}</a>{% endif %}
             {% if site.cv_file %}<a class="btn" href="{{ site.cv_file }}">{{ S.hero.buttons.cv }}</a>{% endif %}
             <a class="btn ghost" href="/contact.vcf" download>{{ S.hero.buttons.vcard }}</a>
@@ -127,9 +126,8 @@
   <h2 class="section-title">{{ S.sections.contact }}</h2>
   <div class="section-body">
     <p class="big">{{ S.contact.text }}</p>
-    <p><a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     <div class="actions">
-      {% if site.linkedin %}<a class="btn" href="{{ site.linkedin }}">{{ S.hero.buttons.linkedin }}</a>{% endif %}
+      {% if site.linkedin %}<a class="btn primary" href="{{ site.linkedin }}">{{ S.hero.buttons.linkedin }}</a>{% endif %}
       {% if site.github %}<a class="btn" href="{{ site.github }}">{{ S.hero.buttons.github }}</a>{% endif %}
       <a class="btn ghost" href="/contact.vcf" download>{{ S.hero.buttons.vcard }}</a>
     </div>

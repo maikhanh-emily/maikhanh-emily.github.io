@@ -10,6 +10,7 @@ featured: true
 order: 1
 status: Đang dùng hằng ngày
 summary: Pipeline thương mại của Planck từng nằm trong một bảng tính. Tôi xây ứng dụng web thay thế nó, bằng Claude Code và không có kỹ sư hỗ trợ. Cả nhóm làm việc trên đó mỗi ngày.
+art_caption: "Sơ đồ minh họa bảng pipeline: công ty đi qua các giai đoạn, mỗi công ty có một điểm phù hợp, và một dòng trạng thái xác nhận mỗi lần lưu. Không có dữ liệu thật."
 ---
 ## Vấn đề
 
