@@ -1,6 +1,6 @@
 ---
 title: Tự xây dựng CRM mà không cần kỹ sư
-subtitle: Ứng dụng web quản lý pipeline phát triển kinh doanh của một start-up, do tôi tự xây dựng bằng các công cụ lập trình AI
+subtitle: Ứng dụng web quản lý pipeline phát triển kinh doanh của một start-up, do tôi tự xây dựng với sự hỗ trợ của công cụ lập trình AI
 period: 6/2026 – nay
 year: 2026
 role: Thiết kế, xây dựng và phụ trách chính
@@ -9,7 +9,7 @@ tags: [Làm cùng AI, Phần mềm, Phát triển kinh doanh]
 featured: true
 order: 1
 status: Đang được sử dụng hằng ngày
-summary: Pipeline thương mại của Planck trước đây nằm trong một file bảng tính. Tôi đã xây dựng một ứng dụng web để thay thế bằng Claude Code, không có kỹ sư hỗ trợ. Cả nhóm hiện dùng ứng dụng này mỗi ngày.
+summary: Pipeline thương mại của Planck trước đây nằm trong một file bảng tính. Tôi đã xây dựng một ứng dụng web để thay thế với sự hỗ trợ của Claude Code, không có kỹ sư giúp sức. Cả nhóm hiện dùng ứng dụng này mỗi ngày.
 art_caption: "Minh họa bảng pipeline: mỗi công ty có điểm đánh giá riêng và đi qua từng giai đoạn, còn dòng trạng thái cho biết dữ liệu đã được lưu hay chưa. Hình không chứa dữ liệu thật."
 ---
 ## Vấn đề
