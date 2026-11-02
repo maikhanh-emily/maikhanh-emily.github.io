@@ -2,7 +2,7 @@ lang_name: Tiếng Việt
 html_lang: vi
 switch_label: English
 site_title: Mai Khanh Do
-meta_description: "Mai Khanh Do: học thạc sĩ Tài chính tại BI Norwegian Business School, làm phát triển kinh doanh tại một start-up deep-tech về vật liệu thu giữ CO₂. Dự án, kinh nghiệm và bài viết."
+meta_description: "Đỗ Mai Khanh (Emily): học thạc sĩ Tài chính tại BI Norwegian Business School, làm phát triển kinh doanh tại một start-up deep-tech về vật liệu thu giữ CO₂. Dự án, kinh nghiệm và bài viết."
 
 nav:
   projects: Dự án
@@ -10,10 +10,10 @@ nav:
   now: Gần đây
 
 hero:
-  eyebrow: Mai Khanh (Emily) Do
-  headline: Học tài chính, và tự làm lấy những công cụ mình cần.
-  title: Thạc sĩ Tài chính tại BI Norwegian Business School · Phát triển kinh doanh tại một start-up deep-tech về vật liệu thu giữ CO₂
-  lede: "Tôi thích những công việc mà phân tích cuối cùng phải dẫn đến một quyết định: một business case, một bộ hồ sơ xin tài trợ, những con số carbon đủ chắc để giải trình, và cả những ứng dụng nội bộ nhỏ giúp cả nhóm làm việc rõ ràng với nhau."
+  eyebrow: Đỗ Mai Khanh (Emily)
+  headline: Học tài chính, và tự làm những công cụ mình cần.
+  title: Học thạc sĩ Tài chính tại BI Norwegian Business School · Làm phát triển kinh doanh tại một start-up deep-tech về vật liệu thu giữ CO₂
+  lede: "Tôi thích những công việc mà kết quả phân tích được dùng để ra quyết định thật: xây dựng business case, làm hồ sơ xin tài trợ, kiểm tra số liệu carbon, hay làm các công cụ nội bộ cho cả nhóm cùng dùng."
   location: Bergen và Oslo, Na Uy
   buttons:
     linkedin: Kết nối trên LinkedIn
@@ -46,6 +46,7 @@ labels:
   all_posts: Tất cả bài viết
   featured: Tiêu biểu
   min_read: phút đọc
+  written: Viết ngày
   draft: Bản nháp
   updated: Cập nhật
   back_projects: Tất cả dự án
@@ -59,18 +60,18 @@ labels:
   related_posts: Bài viết liên quan
   posts_tagged: Bài viết về
   projects_tagged: Dự án về
-  no_posts: Chưa có bài nào được đăng. Vài bản nháp vẫn đang nằm chờ.
+  no_posts: Chưa có bài viết nào.
   fallback: Trang này chưa có bản tiếng Việt, dưới đây là bản tiếng Anh.
   rss: RSS
   theme: Đổi giao diện sáng/tối
-  skip: Đi thẳng đến nội dung
-  built: Trang được dựng bằng một đoạn script Python nhỏ và chạy trên GitHub Pages.
+  skip: Đến phần nội dung
+  built: Trang web này được dựng bằng một script Python nhỏ và chạy trên GitHub Pages.
   not_found_title: Không tìm thấy trang
-  not_found_text: Trang bạn đang tìm không có ở đây. Bạn có thể quay lại trang chủ.
+  not_found_text: Trang bạn đang tìm không tồn tại. Bạn có thể quay lại trang chủ.
   home: Trang chủ
-  projects_intro: Những việc tôi đã xây dựng, tính toán hoặc viết ra, kèm theo phần tôi thực sự đảm nhận và những điều giờ đây tôi sẽ làm khác đi. Dự án tiêu biểu xếp trước, còn lại từ mới đến cũ.
-  writing_intro: Những bài ngắn về tài chính, khí hậu, chuyện tự làm công cụ bằng AI, và đôi khi là chuyện của riêng mình. Có bài tiếng Việt, có bài tiếng Anh.
+  projects_intro: Những dự án tôi đã tham gia, kèm theo phần việc tôi thực sự làm và những điều tôi sẽ làm khác đi nếu được làm lại. Dự án tiêu biểu xếp trước, còn lại từ mới đến cũ.
+  writing_intro: Những bài viết ngắn về tài chính, khí hậu, chuyện làm công cụ bằng AI, và đôi khi là chuyện của riêng mình. Có bài tiếng Việt, có bài tiếng Anh.
   filter_all: Tất cả
 
 contact:
-  text: Nếu bạn đang tuyển dụng cho năm 2027, đang làm về tài chính khí hậu hay năng lượng, hoặc đơn giản là muốn trao đổi, hãy nhắn cho tôi trên LinkedIn. Tôi luôn trả lời.
+  text: Nếu bạn đang tuyển dụng cho năm 2027, làm trong lĩnh vực tài chính khí hậu hoặc năng lượng, hay chỉ đơn giản muốn trao đổi, hãy nhắn cho tôi trên LinkedIn. Tôi luôn trả lời.

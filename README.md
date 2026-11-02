@@ -30,7 +30,7 @@ summary: Một câu tóm tắt, hiện trong danh sách bài.
 Nội dung viết bằng Markdown. Có thể dùng **đậm**, *nghiêng*, danh sách, link, ảnh.
 ```
 
-Thêm `draft: true` nếu chưa muốn đăng (bài sẽ không được build khi push). Thêm `project: ten-du-an` để bài tự liên kết tới trang dự án.
+Thêm `draft: true` nếu chưa muốn đăng (bài sẽ không được build khi push). Nếu bài kể chuyện đã xảy ra từ trước, thêm `happened: 9/2023`: mục Bài viết sẽ xếp theo năm đó, còn `date` vẫn là ngày viết và hiện trong bài. Thêm `project: ten-du-an` để bài tự liên kết tới trang dự án.
 
 **Thêm dự án.** Tạo `content/en/projects/ten-du-an.md` và, nếu muốn, `content/vi/projects/ten-du-an.md` cùng tên file. Thiếu bản tiếng Việt thì site tự hiện bản tiếng Anh kèm một dòng báo. Các trường ở đầu file: `title`, `subtitle`, `period`, `year`, `role`, `org`, `tags`, `featured` (true thì lên trang chủ), `order` (thứ tự), `status`, `summary`, `art_caption` (chú thích dưới hình minh họa).
 

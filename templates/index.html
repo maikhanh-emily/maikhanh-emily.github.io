@@ -95,7 +95,7 @@
     <ul class="post-list">
       {% for post in posts[:3] %}
       <li>
-        <div class="when">{{ fmt_date(post.date) }}</div>
+        <div class="when">{{ post.when or fmt_date(post.date) }}</div>
         <div>
           <h3><a href="{{ L }}blog/{{ post.slug }}/">{{ post.title }}</a>{% if post.draft %}<span class="badge">{{ S.labels.draft }}</span>{% endif %}</h3>
           {% if post.summary %}<p>{{ post.summary }}</p>{% endif %}

@@ -36,6 +36,7 @@ DIST = ROOT / "dist"
 
 FRONT_MATTER = re.compile(r"\A---[ \t]*\r?\n(.*?)\r?\n---[ \t]*\r?\n?", re.S)
 POST_NAME = re.compile(r"^(\d{4}-\d{2}-\d{2})-(.+)$")
+YEAR = re.compile(r"\d{4}")
 ABS_LINK = re.compile(r'((?:href|src|content)=")/(?!/)')
 MONTHS_EN = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 DATA_FILES = ("experience", "education", "recognition", "skills")
@@ -175,10 +176,15 @@ def load_language(lang: str, include_drafts: bool) -> dict:
         m = POST_NAME.match(path.stem)
         date = as_date(meta.get("date") or (m.group(1) if m else dt.date.today()))
         slug = meta.get("slug") or (m.group(2) if m else path.stem)
+        # `happened` is when the story took place, as readers should see it (Sep 2023).
+        # Writing is ordered by its year; `date` stays the day the post was written.
+        happened = str(meta["happened"]) if meta.get("happened") else None
+        year = YEAR.search(happened) if happened else None
         posts.append({**meta, "slug": slug, "date": date, "html": render_markdown(body), "art": load_art(slug),
-                      "tags": meta.get("tags") or [], "lang": lang,
+                      "tags": meta.get("tags") or [], "lang": lang, "when": happened,
+                      "year": int(year.group()) if year else date.year,
                       "minutes": max(1, round(word_count(body) / 200))})
-    posts.sort(key=lambda p: p["date"], reverse=True)
+    posts.sort(key=lambda p: (p["year"], p["date"]), reverse=True)
     data["posts"] = posts
     return data
 
@@ -219,7 +225,7 @@ def feed_xml(site: dict, d: dict, prefix: str) -> str:
     base_url = (site.get("url") or "").rstrip("/")
     name = site.get("name", "")
     items = []
-    for post in d["posts"]:
+    for post in sorted(d["posts"], key=lambda p: p["date"], reverse=True):
         if post.get("draft"):
             continue
         link = f"{base_url}{prefix}blog/{post['slug']}/"

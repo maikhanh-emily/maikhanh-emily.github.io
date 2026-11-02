@@ -1,6 +1,7 @@
 ---
 title: The field outside the train window
 date: 2026-11-02
+happened: Sep 2023
 tags: [Personal, Sustainability, Energy]
 summary: How one semester in Germany gave me a direction, first sustainability, then the energy transition.
 art_caption: Somewhere between Frankfurt and Nuremberg. An illustration, not a photo.

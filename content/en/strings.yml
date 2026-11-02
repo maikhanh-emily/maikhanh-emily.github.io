@@ -46,6 +46,7 @@ labels:
   all_posts: All writing
   featured: Featured
   min_read: min read
+  written: Written
   draft: Draft
   updated: Updated
   back_projects: All projects

@@ -1,44 +1,45 @@
 ---
 title: Cánh đồng ngoài cửa sổ tàu
 date: 2026-11-02
+happened: 9/2023
 tags: [Cá nhân, Bền vững, Năng lượng]
-summary: "Một học kỳ ở Đức đã cho mình một hướng đi: trước là phát triển bền vững, rồi đến chuyển dịch năng lượng."
+summary: "Một học kỳ ở Đức đã định hướng cho mình: trước là phát triển bền vững, sau là chuyển dịch năng lượng."
 art_caption: Đâu đó giữa Frankfurt và Nuremberg. Hình vẽ minh họa, không phải ảnh chụp.
 ---
-Trước đó, mình chưa từng đặt chân ra khỏi Việt Nam. Ngày đầu tiên đến Đức, trên chuyến tàu từ sân bay Frankfurt về Nuremberg, mình nhìn ra cửa sổ và thấy một cánh đồng pin mặt trời trải dài hút tầm mắt. Mình lớn lên ở Hà Nội, nơi chẳng có gì giống như thế. Suốt quãng đường còn lại, mình không sao thôi nghĩ về nó.
+Trước chuyến đi đó, mình chưa từng ra khỏi Việt Nam. Ngày đầu tiên đến Đức, trên chuyến tàu từ sân bay Frankfurt về Nuremberg, mình nhìn ra ngoài cửa sổ và thấy một cánh đồng pin mặt trời rộng mênh mông. Mình lớn lên ở Hà Nội, nơi không có gì như vậy. Suốt quãng đường còn lại, mình cứ nghĩ mãi về nó.
 
-Nghe thì có vẻ hơi quá, mình biết. Hiếm có sự nghiệp nào bắt đầu từ một khung cửa sổ tàu. Nên mình muốn kể lại xem điều gì đã thực sự thay đổi, và tự kiểm chứng xem câu chuyện này có đúng không.
+Mình biết nghe có vẻ hơi quá, vì chẳng mấy ai chọn sự nghiệp chỉ từ một khung cảnh ngoài cửa sổ tàu. Nên ở đây mình muốn kể lại xem sau đó điều gì đã thực sự thay đổi.
 
-## Từ một môn học đến cả một công trường
+## Từ môn học đến thực tế
 
-Tháng 9/2023, mình rời Đại học Ngoại thương sang Friedrich-Alexander-Universität Erlangen-Nürnberg học một kỳ, tập trung vào kinh doanh bền vững. Nghĩa là trước khi lên đường, phát triển bền vững đã nằm sẵn trong thời khóa biểu của mình rồi. Nhưng khi ấy nó vẫn chỉ là một môn học: để đọc, để thảo luận, để thi.
+Tháng 9/2023, mình sang Friedrich-Alexander-Universität Erlangen-Nürnberg học một kỳ trao đổi, chọn hướng kinh doanh bền vững. Nghĩa là trước khi đi, mình đã biết đến phát triển bền vững rồi, nhưng khi đó nó vẫn chỉ là một môn học: đọc, thảo luận và thi.
 
-Còn nước Đức thì đang xắn tay làm thật, như một công trường khổng lồ. Tháng 4 năm đó, họ đóng cửa ba nhà máy điện hạt nhân cuối cùng. Đến hết năm, năng lượng tái tạo lần đầu tiên chiếm hơn một nửa lượng điện cả nước dùng.
+Còn ở Đức, mình thấy người ta làm thật. Tháng 4 năm đó, Đức đóng cửa ba nhà máy điện hạt nhân cuối cùng. Đến hết năm, năng lượng tái tạo lần đầu tiên chiếm hơn một nửa lượng điện tiêu thụ của cả nước.
 
-Ở nhà, mùa hè năm ấy lại là một câu chuyện khác. Từ cuối tháng 5 đến giữa tháng 6, nắng nóng gay gắt và các hồ thủy điện cạn nước khiến miền Bắc thiếu điện, và Hà Nội, nơi mình đang đi thực tập, cũng bị cắt điện luân phiên. Thế là chỉ trong vài tháng, mình đi từ một thành phố vừa trải qua những ngày thiếu điện đến một đất nước đang xây lại cả hệ thống điện ngay trước mắt mọi người.
+Trong khi đó, mùa hè năm ấy ở nhà lại khác. Từ cuối tháng 5 đến giữa tháng 6, nắng nóng và thiếu nước ở các hồ thủy điện khiến miền Bắc thiếu điện, và Hà Nội, nơi mình đang thực tập, cũng bị cắt điện luân phiên. Chỉ vài tháng sau, mình đã ở một đất nước đang thay đổi cả hệ thống điện của mình.
 
-## Câu hỏi theo mình từ hôm đó
+## Câu hỏi sau chuyến tàu
 
-Thứ ở lại trong mình không hẳn là những tấm pin, mà là điều chúng gợi ra. Công nghệ cho chuyển dịch năng lượng thật ra đã có sẵn. Điều quyết định một dự án xanh được xây thật hay mãi nằm trên giấy, gần như lúc nào cũng là bài toán tài chính.
+Điều khiến mình suy nghĩ không hẳn là những tấm pin, mà là câu chuyện phía sau chúng. Công nghệ cho chuyển dịch năng lượng thật ra đã có sẵn. Một dự án xanh có được xây dựng hay chỉ nằm trên giấy, phần lớn phụ thuộc vào bài toán tài chính.
 
-Sau này mình mới biết, Việt Nam là một ví dụ cho cả hai vế ấy. Nước mình cũng có những cánh đồng pin mặt trời, chủ yếu ở duyên hải Nam Trung Bộ, cách Hà Nội rất xa. Giá mua điện ưu đãi (feed-in tariff) đã kéo về khoảng 9 GW chỉ trong năm 2020. Cuối năm đó cơ chế này khép lại, và lưới điện ở các tỉnh ấy không gánh nổi tất cả những gì đã xây. Kỹ thuật không phải là vấn đề. Chính giá điện và lưới điện mới quyết định mọi chuyện.
+Sau này mình mới biết, Việt Nam cũng là một ví dụ như vậy. Nước mình cũng có nhiều cánh đồng pin mặt trời, chủ yếu ở duyên hải Nam Trung Bộ, cách xa Hà Nội. Giá mua điện ưu đãi (feed-in tariff) đã thu hút khoảng 9 GW chỉ trong năm 2020. Đến cuối năm đó, cơ chế này kết thúc, và lưới điện ở các tỉnh này không truyền tải hết lượng điện đã xây. Vấn đề không nằm ở kỹ thuật, mà ở giá điện và lưới điện.
 
-## Thử đối chiếu lại
+## Nhìn lại
 
-Mình vốn hay nghi ngờ những câu chuyện kiểu một khoảnh khắc thay đổi cả cuộc đời, nên đã thử đọc lại CV của chính mình. Trước học kỳ đó là một bài nghiên cứu về hiệp định thương mại và xuất khẩu thủy sản, mấy bảng dashboard tuân thủ thuế, những lần đi chào tài trợ cho câu lạc bộ thể thao của trường. Việc nào cũng có ích, nhưng chẳng việc nào liên quan đến năng lượng hay khí hậu. Còn sau học kỳ đó:
+Mình vốn không tin lắm vào những câu chuyện kiểu một khoảnh khắc thay đổi cả cuộc đời, nên đã thử đọc lại CV của mình. Trước học kỳ đó là một bài nghiên cứu về hiệp định thương mại và xuất khẩu thủy sản, thực tập về tuân thủ thuế, và đi xin tài trợ cho câu lạc bộ thể thao của trường. Việc nào cũng có ích, nhưng chưa có gì liên quan đến năng lượng hay khí hậu. Còn từ sau học kỳ đó:
 
-- **2024.** [Business case đầu tư cho một dự án điện gió ngoài khơi ở Việt Nam](/vi/projects/gefe-offshore-wind/). Mấu chốt hóa ra không nằm ở tua-bin, mà ở chi phí đấu nối vào lưới điện, thời điểm các quy định được chốt, và dự án sẽ có ý nghĩa thế nào với những cộng đồng ven biển.
-- **2024–25.** [Báo cáo bền vững ở FPT IS](/vi/projects/fpt-carbon-accounting/). Cái khó không phải là giảm phát thải về mặt kỹ thuật, mà là doanh nghiệp không đưa ra được những con số đủ để người khác tin.
-- **2025.** Một [mô hình sản xuất thực phẩm tuần hoàn](/vi/projects/one-earth-next-generation-leaders/), làm cùng đội sáu người đến từ sáu quốc gia, ở Hồng Kông.
-- **2025.** Học thạc sĩ Tài chính tại BI, ở Na Uy. Chính câu hỏi ấy đã đưa mình đến đây.
-- **2026.** [Làm phát triển kinh doanh ở Planck](/vi/projects/planck-bd-crm/), một start-up thiết kế vật liệu thu giữ CO₂. Phần khoa học rất mới, nhưng vật liệu ấy có đi được đến quy mô công nghiệp hay không thì sẽ được quyết định trên bàn thương mại, chứ không phải trong phòng thí nghiệm.
+- **2024.** [Business case đầu tư cho một dự án điện gió ngoài khơi ở Việt Nam](/vi/projects/gefe-offshore-wind/). Điều quyết định không nằm ở tua-bin, mà ở chi phí đấu nối lưới điện, thời điểm có quy định rõ ràng, và tác động đến cộng đồng ven biển.
+- **2024–25.** [Báo cáo bền vững ở FPT IS](/vi/projects/fpt-carbon-accounting/). Khó khăn không phải là giảm phát thải về mặt kỹ thuật, mà là doanh nghiệp chưa có số liệu đủ tin cậy.
+- **2025.** [Mô hình sản xuất thực phẩm tuần hoàn](/vi/projects/one-earth-next-generation-leaders/) cùng đội sáu người đến từ sáu quốc gia, ở Hồng Kông.
+- **2025.** Học thạc sĩ Tài chính tại BI, ở Na Uy, cũng vì câu hỏi đó.
+- **2026.** [Làm phát triển kinh doanh ở Planck](/vi/projects/planck-bd-crm/), một start-up thiết kế vật liệu thu giữ CO₂. Công nghệ rất mới, nhưng có đi đến quy mô công nghiệp được hay không sẽ phụ thuộc vào yếu tố thương mại, không chỉ ở phòng thí nghiệm.
 
-Vậy là câu chuyện này đúng thật. Mình sang Đức một học kỳ, trở về với một hướng đi, và hai năm sau chuyển đến Na Uy để theo đuổi nó.
+Vậy nên mình nghĩ câu chuyện này là thật. Mình sang Đức một học kỳ, trở về với một định hướng rõ ràng hơn, và hai năm sau chuyển đến Na Uy để theo đuổi nó.
 
-## Vì sao lại là năng lượng
+## Vì sao là năng lượng
 
-Đi dọc danh sách ấy, cái từ rộng dần thu hẹp lại. Phát triển bền vững là cánh cửa đưa mình vào. Năng lượng là nơi mình muốn ở lại, vì đó là nơi những quyết định đầu tư lớn nhất của hai mươi năm tới sẽ được đưa ra, và phía thương mại chính là nơi những quyết định ấy được thông qua hoặc bị chặn lại. Đó cũng là lý do mình học tài chính chứ không học kỹ thuật.
+Dần dần, mối quan tâm của mình thu hẹp lại. Phát triển bền vững là điểm bắt đầu, còn năng lượng là lĩnh vực mình muốn theo lâu dài, vì đây là nơi có những quyết định đầu tư lớn nhất trong hai mươi năm tới, và những quyết định đó thường được thông qua hoặc bị chặn ở khâu thương mại. Đó cũng là lý do mình học tài chính chứ không học kỹ thuật.
 
-Nước Đức rồi cũng quay lại với mình. [Luận văn thạc sĩ](/vi/projects/thesis-climate-risk-germany/) mình đang viết cùng một người bạn học xây một chỉ số hằng ngày đo mức độ chú ý tới rủi ro khí hậu từ mười năm báo chí Đức, rồi xem nó tác động thế nào đến giá cổ phiếu Đức. Tiếng Đức của mình vẫn ở mức cơ bản. May mà mô hình chủ đề không chê.
+Nước Đức rồi cũng quay lại trong công việc của mình. [Luận văn thạc sĩ](/vi/projects/thesis-climate-risk-germany/) mình đang làm cùng một bạn học xây dựng chỉ số đo mức độ quan tâm tới rủi ro khí hậu từ mười năm báo chí Đức, rồi xem nó ảnh hưởng thế nào đến giá cổ phiếu Đức. Tiếng Đức của mình vẫn ở mức cơ bản, may là mô hình không cần mình đọc hết.
 
-Đến giờ mình vẫn không biết chính xác cánh đồng ấy nằm ở đâu, hay ai đã bỏ tiền xây nó. Chỉ là bây giờ, câu hỏi thứ hai mới là điều mình sẽ hỏi trước tiên.
+Đến giờ mình vẫn không biết chính xác cánh đồng đó nằm ở đâu, hay ai đã đầu tư xây nó. Nhưng bây giờ, câu hỏi thứ hai mới là điều mình muốn biết trước.

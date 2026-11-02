@@ -1,6 +1,7 @@
 ---
 title: A first love with the world
 date: 2026-11-02
+happened: 2025
 tags: [Personal, Studying abroad]
 summary: The most precious thing studying abroad gave me was never the degree. It was falling in love with a whole world.
 art_caption: A summer afternoon in the Norwegian hills. An illustration, not a photo.

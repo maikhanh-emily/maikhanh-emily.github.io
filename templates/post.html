@@ -5,7 +5,7 @@
     <p class="crumbs"><a href="{{ L }}blog/">{{ S.labels.back_writing }}</a></p>
     <h1>{{ post.title }}{% if post.draft %} <span class="badge">{{ S.labels.draft }}</span>{% endif %}</h1>
     {% if post.summary %}<p class="subtitle">{{ post.summary }}</p>{% endif %}
-    <p class="byline"><time datetime="{{ post.date.isoformat() }}">{{ fmt_date(post.date) }}</time> · {{ post.minutes }} {{ S.labels.min_read }}</p>
+    <p class="byline">{% if post.when %}{{ post.when }} · {{ S.labels.written }} {% endif %}<time datetime="{{ post.date.isoformat() }}">{{ fmt_date(post.date) }}</time> · {{ post.minutes }} {{ S.labels.min_read }}</p>
     {% if post.tags %}<div class="tags">{% for t in post.tags %}<a class="tag" href="{{ L }}tags/{{ t|slug }}/">{{ t }}</a>{% endfor %}</div>{% endif %}
   </header>
   {% if post.art %}

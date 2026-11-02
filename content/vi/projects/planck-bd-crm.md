@@ -1,48 +1,48 @@
 ---
-title: Tự xây CRM khi không có kỹ sư
-subtitle: Ứng dụng web vận hành toàn bộ pipeline phát triển kinh doanh của một start-up, do tôi tự làm cùng các trợ lý lập trình AI
+title: Tự xây dựng CRM mà không cần kỹ sư
+subtitle: Ứng dụng web quản lý pipeline phát triển kinh doanh của một start-up, do tôi tự xây dựng bằng các công cụ lập trình AI
 period: 6/2026 – nay
 year: 2026
-role: Tự thiết kế, tự xây và chịu trách nhiệm
+role: Thiết kế, xây dựng và phụ trách chính
 org: Planck Technologies AS
 tags: [Làm cùng AI, Phần mềm, Phát triển kinh doanh]
 featured: true
 order: 1
-status: Đang dùng hằng ngày
-summary: Pipeline thương mại của Planck từng nằm trong một file bảng tính. Tôi đã tự làm một ứng dụng web để thay thế nó, bằng Claude Code và không có kỹ sư nào hỗ trợ. Cả nhóm hiện làm việc trên đó mỗi ngày.
-art_caption: "Sơ đồ minh họa bảng pipeline: các công ty đi qua từng giai đoạn, công ty nào cũng có điểm phù hợp, và một dòng trạng thái báo rõ mỗi lần lưu. Không có dữ liệu thật trong hình."
+status: Đang được sử dụng hằng ngày
+summary: Pipeline thương mại của Planck trước đây nằm trong một file bảng tính. Tôi đã xây dựng một ứng dụng web để thay thế bằng Claude Code, không có kỹ sư hỗ trợ. Cả nhóm hiện dùng ứng dụng này mỗi ngày.
+art_caption: "Minh họa bảng pipeline: mỗi công ty có điểm đánh giá riêng và đi qua từng giai đoạn, còn dòng trạng thái cho biết dữ liệu đã được lưu hay chưa. Hình không chứa dữ liệu thật."
 ---
 ## Vấn đề
 
-Planck Technologies là một start-up deep-tech ở Na Uy, dùng AI để thiết kế vật liệu thu giữ CO₂. Các kỹ sư ở đây dồn sức cho nền tảng khám phá vật liệu, vì đó mới là sản phẩm chính. Không ai rảnh để làm công cụ nội bộ, nên pipeline thương mại cứ nằm trong mấy file bảng tính, và file nào cũng lệch đi ngay khi có hai người cùng sửa.
+Planck Technologies là một start-up deep-tech ở Na Uy, ứng dụng AI vào thiết kế vật liệu thu giữ CO₂. Đội kỹ sư tập trung vào nền tảng khám phá vật liệu, tức sản phẩm chính của công ty, nên không ai có thời gian làm công cụ nội bộ. Pipeline thương mại vì vậy nằm trong các file bảng tính, và dữ liệu nhanh chóng bị lệch khi có hai người cùng sửa.
 
-## Tôi đã xây gì
+## Tôi đã xây dựng gì
 
-Một CRM nội bộ cho pipeline khách hàng, rồi sau đó thêm một cái nữa cho nhà đầu tư. Mỗi công ty được đưa vào hệ thống qua điểm phù hợp, đi qua các giai đoạn, kèm theo đầu mối liên hệ, ghi chú và nhật ký hoạt động. Tất cả đổ về các màn hình dashboard, pipeline, tiếp cận và báo cáo. Báo cáo tuần gửi ban lãnh đạo cũng xuất thẳng từ đây. Về quy mô: hơn 500 tổ chức đã được sàng lọc, khoảng 60 tổ chức đang được theo sát.
+Một CRM nội bộ cho pipeline khách hàng, và sau đó thêm một CRM thứ hai cho nhà đầu tư. Mỗi công ty được chấm điểm mức độ phù hợp, rồi đi qua các giai đoạn, kèm thông tin liên hệ, ghi chú và lịch sử hoạt động. Dữ liệu được hiển thị trên các màn hình dashboard, pipeline, tiếp cận khách hàng và báo cáo. Báo cáo tuần cho ban lãnh đạo được xuất trực tiếp từ đây. Về quy mô: hơn 500 tổ chức đã được sàng lọc, khoảng 60 tổ chức đang được theo dõi.
 
-## Cách nó hoạt động
+## Cách hoạt động
 
-Kiến trúc của nó hơi lạ, và tôi cố tình làm vậy.
+Cách xây dựng ứng dụng này khá khác thường, và đó là lựa chọn có chủ đích.
 
-- Một ứng dụng React viết gọn trong một file JSX duy nhất, được một script Python biên dịch thành một file HTML chạy độc lập. Không Node, không npm, không server. Ai cần dùng chỉ việc nhấp đúp để mở.
-- Dữ liệu lưu ngay trong trình duyệt. Khi dùng chung cả nhóm, một file JSON được đặt trong thư mục OneDrive vốn đã đồng bộ sẵn, và trình duyệt của từng người đọc, ghi vào đó qua File System Access API.
-- Dữ liệu được gộp theo từng bản ghi và từng trường. Bản ghi nào cũng lưu thời điểm sửa và người sửa, nên nếu tôi đổi giai đoạn của một khách hàng tiềm năng đúng lúc đồng nghiệp đổi người phụ trách, cả hai thay đổi đều được giữ lại. Khi xóa, hệ thống để lại một dấu đánh dấu (tombstone), để bản ghi đã xóa trên máy này không sống lại ở lần đồng bộ sau.
-- Mỗi công ty được chấm trên thang 100 theo tám tiêu chí có trọng số (mức độ phù hợp với use case, độ cấp bách, mức độ thân quen, tốc độ ra quyết định, tiềm năng doanh thu, khoảng cách địa lý, khả năng bổ trợ khi làm đối tác, rủi ro họ tự làm thay vì mua), và phải đạt một ngưỡng nhất định mới được vào danh mục. Các trọng số này do tôi cân nhắc chứ không được rút ra từ kết quả thực tế, vì khi đó chưa có đủ thương vụ đã chốt để làm việc đó. Tôi thà nói thẳng như vậy còn hơn cố bảo vệ chúng.
+- Ứng dụng React được viết trong một file JSX duy nhất, rồi được một script Python biên dịch thành một file HTML độc lập. Không cần Node, npm hay server, người dùng chỉ cần nhấp đúp để mở.
+- Dữ liệu được lưu trong trình duyệt. Để dùng chung, cả nhóm có một file JSON đặt trong thư mục OneDrive, và trình duyệt của mỗi người đọc, ghi file này qua File System Access API.
+- Khi đồng bộ, dữ liệu được gộp theo từng bản ghi và từng trường. Mỗi bản ghi lưu lại thời gian sửa và người sửa, nên nếu tôi đổi giai đoạn của một khách hàng tiềm năng trong lúc đồng nghiệp đổi người phụ trách, cả hai thay đổi đều được giữ. Bản ghi đã xóa vẫn để lại một dấu (tombstone), nhờ vậy sẽ không xuất hiện lại ở lần đồng bộ sau.
+- Mỗi công ty được chấm trên thang 100 theo tám tiêu chí có trọng số (mức độ phù hợp với nhu cầu, mức độ cấp bách, mức độ quen biết, tốc độ ra quyết định, tiềm năng doanh thu, khoảng cách địa lý, khả năng bổ trợ khi hợp tác, rủi ro khách hàng tự làm thay vì mua), và phải đạt một ngưỡng nhất định mới được đưa vào danh mục. Trọng số là do tôi đánh giá chủ quan, không phải ước lượng từ dữ liệu, vì chưa có đủ thương vụ đã chốt để làm việc đó. Tôi nghĩ nói rõ điều này tốt hơn là cố biện minh cho chúng.
 
-Cái được là không phải xin cấp, bảo mật hay trả tiền cho thứ gì, và một người không phải kỹ sư vẫn có thể tự phát hành, tự bảo trì. Cái mất là vài giây biên dịch ở lần mở đầu, một dịch vụ đồng bộ file bị dùng thay cơ sở dữ liệu, và không có xác thực thực sự. Với nhóm hai người thì vừa đủ. Lên đến sáu người là bắt đầu thấy vướng.
+Ưu điểm là không phải cài đặt, quản lý bảo mật hay trả phí cho hệ thống nào, và người không phải kỹ sư vẫn có thể tự phát hành và bảo trì. Đổi lại, lần mở đầu mất vài giây để biên dịch, dịch vụ đồng bộ file phải đóng vai trò cơ sở dữ liệu, và ứng dụng chưa có cơ chế xác thực thực sự. Cách này phù hợp với nhóm hai người, nhưng đến sáu người thì bắt đầu có vấn đề.
 
-## Những chỗ đã hỏng
+## Những lỗi đã gặp
 
-Lỗi đắt giá nhất không phải là một cú sập. Có một thời gian, lần lưu thất bại trông y hệt lần lưu thành công, và công việc cứ thế biến mất ở lần tải lại trang tiếp theo. Cách sửa chẳng có gì cao siêu: một dòng trạng thái báo *Đã lưu mọi thay đổi* hoặc *Đang lưu…*, và một dải đỏ chạy ngang đầu màn hình mỗi khi ghi thất bại. Đừng bao giờ để một thất bại trông giống một thành công.
+Lỗi gây hậu quả lớn nhất không phải là ứng dụng bị sập. Có một thời gian, lần lưu thất bại trông giống hệt lần lưu thành công, nên dữ liệu vừa nhập mất hẳn sau khi tải lại trang. Cách sửa khá đơn giản: một dòng trạng thái hiển thị *Đã lưu mọi thay đổi* hoặc *Đang lưu…*, và một thanh cảnh báo màu đỏ ở đầu màn hình khi lưu thất bại. Bài học là lỗi phải luôn được hiển thị rõ ràng, không được trông như đã thành công.
 
-Một lỗi nhỏ hơn: ngày tháng tính theo UTC bị lùi mất một ngày trong giờ mùa hè ở Na Uy. Giờ mọi hàm xử lý ngày đều chạy theo giờ địa phương.
+Một lỗi nhỏ hơn: ngày tháng tính theo giờ UTC bị lùi mất một ngày trong giờ mùa hè ở Na Uy. Hiện tất cả các hàm xử lý ngày đều dùng giờ địa phương.
 
-## Tôi làm việc với nó ra sao
+## Cách tôi làm việc
 
-Mô tả rõ yêu cầu trước khi prompt. Sao lưu trước khi sửa, bằng các bản sao có ghi thời gian. Build lại, chạy kiểm tra cú pháp, rồi tự dùng thử để xem thực sự hỏng ở đâu. Trợ lý AI viết phần lớn code. Còn tôi quyết định cấu trúc, đọc lại, kiểm thử và chịu trách nhiệm về nó.
+Viết rõ yêu cầu trước khi đưa cho AI. Sao lưu trước khi sửa, mỗi bản đều ghi thời gian. Sau khi build lại, tôi chạy kiểm tra cú pháp rồi tự dùng thử để tìm lỗi thực tế. AI viết phần lớn code, còn tôi quyết định cấu trúc, đọc lại, kiểm thử và chịu trách nhiệm về kết quả.
 
-## Nếu làm tiếp, tôi sẽ đổi gì
+## Nếu phát triển tiếp
 
-Tách file 7.500 dòng thành các module để người khác có thể tham gia. Biên dịch sẵn thay vì biên dịch trong trình duyệt. Thay cơ chế đồng bộ file bằng một backend thực sự. Và thêm định danh người dùng đàng hoàng, trước khi những người tôi chưa từng gặp bắt đầu sửa dữ liệu chung.
+Tách file 7.500 dòng thành các module để người khác có thể tham gia phát triển. Biên dịch sẵn thay vì biên dịch trên trình duyệt. Thay cơ chế đồng bộ file bằng một backend thực sự. Và bổ sung đăng nhập, phân quyền trước khi có thêm những người dùng mới cùng sửa dữ liệu chung.
 
-*Ứng dụng chỉ dùng nội bộ nên không có đường link công khai, và tôi không chia sẻ nội dung pipeline hay các mối quan hệ thương mại.*
+*Ứng dụng chỉ dùng nội bộ nên không có link công khai, và tôi không chia sẻ dữ liệu pipeline hay thông tin về các đối tác thương mại.*
