@@ -2,7 +2,7 @@
 """Build the portfolio site into dist/.
 
     python build.py              build
-    python build.py --drafts     build, including posts marked `draft: true`
+    python build.py --drafts     build, including the private drafts in content/<lang>/drafts/
     python build.py --serve      build, then serve dist/ at http://127.0.0.1:8765
     python build.py --serve 8000 same, on another port
 
@@ -171,7 +171,11 @@ def load_language(lang: str, include_drafts: bool) -> dict:
     data["projects"] = projects
 
     posts = []
-    for path in sorted((base / "posts").glob("*.md")):
+    paths = list((base / "posts").glob("*.md"))
+    if include_drafts:
+        # drafts/ is git-ignored: the repo is public, so private drafts stay on this machine.
+        paths += (base / "drafts").glob("*.md")
+    for path in sorted(paths):
         meta, body = parse_markdown_file(path)
         if meta.get("draft") and not include_drafts:
             continue
@@ -401,7 +405,7 @@ def serve(port: int) -> None:
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--drafts", action="store_true", help="include posts marked draft: true")
+    parser.add_argument("--drafts", action="store_true", help="include private drafts and posts marked draft: true")
     parser.add_argument("--serve", nargs="?", const=8765, type=int, metavar="PORT", help="serve dist/ after building")
     args = parser.parse_args(argv)
     build(include_drafts=args.drafts)

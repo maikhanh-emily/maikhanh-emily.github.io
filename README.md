@@ -30,7 +30,7 @@ summary: Một câu tóm tắt, hiện trong danh sách bài.
 Nội dung viết bằng Markdown. Có thể dùng **đậm**, *nghiêng*, danh sách, link, ảnh.
 ```
 
-Thêm `draft: true` nếu chưa muốn đăng (bài sẽ không được build khi push). Nếu bài kể chuyện đã xảy ra từ trước, thêm `happened: 9/2023`: mục Bài viết sẽ xếp theo năm đó, còn `date` vẫn là ngày viết và hiện trong bài. Thêm `project: ten-du-an` để bài tự liên kết tới trang dự án.
+Bài chưa muốn đăng thì để trong `content/en/drafts/` hoặc `content/vi/drafts/`, với dòng `draft: true` ở đầu file để hiện nhãn Bản nháp. Repo này công khai, nên bài nháp để trong `posts/` vẫn đọc được trên GitHub, còn thư mục `drafts/` thì không lên GitHub. Khi đăng, chuyển file sang `posts/` và xóa dòng `draft: true`. Nếu bài kể chuyện đã xảy ra từ trước, thêm `happened: 9/2023`: mục Bài viết sẽ xếp theo năm đó, còn `date` vẫn là ngày viết và hiện trong bài. Thêm `project: ten-du-an` để bài tự liên kết tới trang dự án.
 
 **Thêm dự án.** Tạo `content/en/projects/ten-du-an.md` và, nếu muốn, `content/vi/projects/ten-du-an.md` cùng tên file. Thiếu bản tiếng Việt thì site tự hiện bản tiếng Anh kèm một dòng báo. Các trường ở đầu file: `title`, `subtitle`, `period`, `year`, `role`, `org`, `tags`, `featured` (true thì lên trang chủ), `order` (thứ tự), `status`, `summary`, `art_caption` (chú thích dưới hình minh họa).
 
@@ -75,6 +75,7 @@ content/<lang>/         everything a reader sees, one folder per language
   skills.yml            skill chips
   projects/*.md         one file per project, same filename across languages
   posts/YYYY-MM-DD-*.md blog posts
+  drafts/*.md           private drafts: git-ignored, shown only with --drafts
 content/illustrations/  one SVG per project, same filename as the project, shared across languages
 templates/              Jinja2 templates (base, index, projects, project, blog, post, page, tag, 404) and _mark.svg, the MK monogram
 static/                 style.css, main.js, favicon.svg, portrait-cut.webp, portrait.jpg, og-image.jpg
@@ -92,4 +93,4 @@ Requirements: Python 3.10+, `pip install -r requirements.txt` (markdown, Jinja2,
 - No phone number, address, student numbers or email address. LinkedIn is the only contact route, because anything printed on a public page gets harvested for spam and scams.
 - Vietnamese voice: "tôi" on the front page, projects, experience and the Now page, which recruiters read; "mình" only in posts. Write it as natural Vietnamese, never word by word from the English.
 - Illustrations are schematic. No real pipeline data, and nothing that suggests a result a project hasn't reached.
-- Posts marked `draft: true` never reach the public build. Only `python build.py --drafts` on your own machine shows them.
+- Private drafts go in `content/<lang>/drafts/`, which git ignores. This repository is public, so `draft: true` on its own hides a post from the site but not from anyone reading the source on GitHub. Only `python build.py --drafts` on your own machine shows them.
