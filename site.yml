@@ -7,7 +7,7 @@ family_name: Do
 nickname: Emily
 
 # Fill these in. A button is hidden while its value is empty.
-linkedin: ""        # e.g. https://www.linkedin.com/in/your-handle
+linkedin: "https://www.linkedin.com/in/maikhanh-do/"
 github: ""          # e.g. https://github.com/your-handle
 cv_file: ""         # e.g. /static/MaiKhanhDo_CV.pdf  (copy the PDF into static/ first)
 
