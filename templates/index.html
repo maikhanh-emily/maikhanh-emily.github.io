@@ -1,0 +1,138 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="wrap">
+    <div class="card">
+      <div class="card-main">
+        <div class="portrait"><img src="{{ site.portrait }}" alt="{{ site.name }}" width="900" height="900" fetchpriority="high"></div>
+        <div class="card-text">
+          <p class="eyebrow">{{ S.hero.eyebrow }}</p>
+          <h1>{{ S.hero.headline }}</h1>
+          <p class="title">{{ S.hero.title }}</p>
+          <p class="lede">{{ S.hero.lede }}</p>
+          <div class="actions">
+            <a class="btn primary" href="mailto:{{ site.email }}">{{ S.hero.buttons.email }}</a>
+            {% if site.linkedin %}<a class="btn" href="{{ site.linkedin }}">{{ S.hero.buttons.linkedin }}</a>{% endif %}
+            {% if site.github %}<a class="btn" href="{{ site.github }}">{{ S.hero.buttons.github }}</a>{% endif %}
+            {% if site.cv_file %}<a class="btn" href="{{ site.cv_file }}">{{ S.hero.buttons.cv }}</a>{% endif %}
+            <a class="btn ghost" href="/contact.vcf" download>{{ S.hero.buttons.vcard }}</a>
+          </div>
+        </div>
+      </div>
+      <dl class="facts">
+        {% for f in S.card %}
+        <div><dt>{{ f.label }}</dt><dd>{{ f.value }}</dd></div>
+        {% endfor %}
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="about">
+  <h2 class="section-title">{{ S.sections.about }}</h2>
+  <div class="section-body prose">{{ pages.about.html|safe }}</div>
+</section>
+
+<section class="section wrap" id="experience">
+  <h2 class="section-title">{{ S.sections.experience }}</h2>
+  <div class="section-body">
+    <ol class="timeline">
+      {% for e in experience %}
+      <li>
+        <div class="when">{{ e.period }}</div>
+        <div class="what">
+          <h3>{{ e.role }}</h3>
+          <p class="where">{{ e.org }}{% if e.org_note %}, {{ e.org_note }}{% endif %} · {{ e.location }}</p>
+          <ul>{% for b in e.bullets %}<li>{{ b }}</li>{% endfor %}</ul>
+          {% if e.project %}<a class="more" href="{{ L }}projects/{{ e.project }}/">{{ S.labels.related_project }} →</a>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="section wrap" id="projects">
+  <h2 class="section-title">{{ S.sections.projects }}</h2>
+  <div class="section-body">
+    <div class="projects-grid">
+      {% for p in projects if p.featured %}{% include "_project_card.html" %}{% endfor %}
+    </div>
+    <p class="more-link"><a href="{{ L }}projects/">{{ S.labels.all_projects }} ({{ projects|length }}) →</a></p>
+  </div>
+</section>
+
+<section class="section wrap" id="education">
+  <h2 class="section-title">{{ S.sections.education }}</h2>
+  <div class="section-body two-col">
+    <div>
+      {% for ed in education %}
+      <div class="edu">
+        <div class="when">{{ ed.period }}</div>
+        <h3>{{ ed.degree }}</h3>
+        <p class="where">{{ ed.school }} · {{ ed.location }}</p>
+        <ul>{% for n in ed.notes %}<li>{{ n }}</li>{% endfor %}</ul>
+      </div>
+      {% endfor %}
+    </div>
+    <div>
+      <h3 class="sub">{{ S.sections.recognition }}</h3>
+      <ul class="recognition">
+        {% for r in recognition %}
+        <li>
+          <span class="when">{{ r.year }}</span>
+          <div><strong>{{ r.title }}</strong><br><span class="muted">{{ r.by }}</span>{% if r.project %} <a class="arrow" href="{{ L }}projects/{{ r.project }}/" aria-label="{{ S.labels.related_project }}">→</a>{% endif %}</div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap" id="writing">
+  <h2 class="section-title">{{ S.sections.writing }}</h2>
+  <div class="section-body">
+    {% if posts %}
+    <ul class="post-list">
+      {% for post in posts[:3] %}
+      <li>
+        <div class="when">{{ fmt_date(post.date) }}</div>
+        <div>
+          <h3><a href="{{ L }}blog/{{ post.slug }}/">{{ post.title }}</a>{% if post.draft %}<span class="badge">{{ S.labels.draft }}</span>{% endif %}</h3>
+          {% if post.summary %}<p>{{ post.summary }}</p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <p class="more-link"><a href="{{ L }}blog/">{{ S.labels.all_posts }} →</a></p>
+    {% else %}
+    <p class="muted">{{ S.labels.no_posts }}</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section wrap" id="skills">
+  <h2 class="section-title">{{ S.sections.skills }}</h2>
+  <div class="section-body skills">
+    {% for g in skills %}
+    <div>
+      <h3 class="sub">{{ g.group }}</h3>
+      <div class="chips">{% for item in g["items"] %}<span class="chip">{{ item }}</span>{% endfor %}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section wrap contact" id="contact">
+  <h2 class="section-title">{{ S.sections.contact }}</h2>
+  <div class="section-body">
+    <p class="big">{{ S.contact.text }}</p>
+    <p><a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <div class="actions">
+      {% if site.linkedin %}<a class="btn" href="{{ site.linkedin }}">{{ S.hero.buttons.linkedin }}</a>{% endif %}
+      {% if site.github %}<a class="btn" href="{{ site.github }}">{{ S.hero.buttons.github }}</a>{% endif %}
+      <a class="btn ghost" href="/contact.vcf" download>{{ S.hero.buttons.vcard }}</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

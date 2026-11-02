@@ -1,0 +1,28 @@
+- role: Chuyên viên Phát triển kinh doanh
+  org: Planck Technologies AS
+  org_note: start-up deep-tech ứng dụng AI vào thiết kế vật liệu thu giữ CO₂
+  location: Lysaker, Na Uy
+  period: 6/2026 – 12/2026
+  project: planck-bd-crm
+  bullets:
+    - Tiếp cận khách hàng công nghiệp và năng lượng, tham gia các cuộc gặp khách hàng và nhà đầu tư sau đó. Theo dõi từng pipeline trong CRM tự xây, với hơn 500 tổ chức được sàng lọc và khoảng 60 đang theo sát.
+    - Chủ trì các hồ sơ xin tài trợ công, giải thưởng và accelerator của công ty, hơn 20 hồ sơ đã nộp. Lên kế hoạch theo từng hạn nộp, thu thập đầu vào từ đồng nghiệp khắp công ty và biến một câu chuyện công ty thành hồ sơ riêng cho từng hội đồng đánh giá.
+    - Tự xây và vận hành cả hai CRM, khách hàng và nhà đầu tư, bằng trợ lý lập trình AI và không có kỹ sư hỗ trợ. Đặc tả trước, sao lưu trước, kiểm thử trước khi phát hành.
+    - Viết bản cập nhật hằng tháng, bộ slide phát triển kinh doanh hằng quý và bản tin nội bộ của công ty.
+
+- role: Thực tập sinh Tư vấn Chuyển đổi xanh
+  org: FPT IS
+  org_note: mảng dịch vụ công nghệ của FPT, tập đoàn CNTT lớn nhất Việt Nam
+  location: Hà Nội, Việt Nam
+  period: 11/2024 – 4/2025
+  project: fpt-carbon-accounting
+  bullets:
+    - Xác định phân mảnh dữ liệu là rủi ro tuân thủ chính trong báo cáo đa pháp nhân, và điều phối việc triển khai hệ thống kiểm kê carbon doanh nghiệp để khắc phục, cùng lúc ở nhiều khách hàng mà không có quy trình mẫu sẵn.
+    - Đối chiếu công bố của khách hàng với CSRD, GRI và IFRS S1/S2, chuyển kết quả thành báo cáo tóm tắt, kế hoạch khắc phục và workshop cho hơn 50 bên liên quan, bằng ngôn ngữ mà đội vận hành có thể hành động ngay.
+
+- role: Thực tập sinh Tuân thủ thuế
+  org: Cục Thuế Hà Nội
+  location: Hà Nội, Việt Nam
+  period: 6/2023 – 9/2023
+  bullets:
+    - Xây dashboard Excel hợp nhất dữ liệu tuân thủ giữa các phòng ban. Chuẩn hóa kiểm tra và tự động hóa kiểm soát đầu vào giúp giảm 15% thời gian xử lý báo cáo.

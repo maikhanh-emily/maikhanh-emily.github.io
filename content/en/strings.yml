@@ -1,0 +1,77 @@
+lang_name: English
+html_lang: en
+switch_label: Tiếng Việt
+site_title: Mai Khanh Do
+meta_description: "Mai Khanh Do: finance student at BI Norwegian Business School, business development at a deep-tech start-up designing materials for CO₂ capture. Projects, experience and writing."
+
+nav:
+  projects: Projects
+  writing: Writing
+  now: Now
+
+hero:
+  eyebrow: Mai Khanh (Emily) Do
+  headline: Finance student who builds the tools she needs.
+  title: MSc Finance at BI Norwegian Business School · Business development at a deep-tech start-up designing materials for CO₂ capture
+  lede: I work where analysis has to become a decision. Business cases, funding applications, carbon numbers that have to hold up, and the small internal apps that keep a team honest.
+  location: Bergen and Oslo, Norway
+  buttons:
+    email: Email
+    linkedin: LinkedIn
+    github: GitHub
+    cv: CV
+    vcard: Save contact
+
+card:
+  - label: Based in
+    value: Bergen and Oslo, Norway
+  - label: Studying
+    value: MSc in Business, Major in Finance, BI (class of 2027)
+  - label: Working on
+    value: Master's thesis on climate risk in German equities
+  - label: Speaks
+    value: Vietnamese, English, some German, learning Norwegian
+
+sections:
+  about: About
+  experience: Experience
+  projects: Selected projects
+  education: Education
+  recognition: Recognition
+  skills: Skills
+  writing: Writing
+  contact: Get in touch
+
+labels:
+  all_projects: All projects
+  all_posts: All writing
+  featured: Featured
+  min_read: min read
+  draft: Draft
+  updated: Updated
+  back_projects: All projects
+  back_writing: All writing
+  role: Role
+  period: Period
+  organisation: With
+  status: Status
+  tags: Topics
+  related_project: Related project
+  related_posts: Related writing
+  posts_tagged: Writing on
+  projects_tagged: Projects on
+  no_posts: Nothing published yet. A few drafts are waiting.
+  fallback: This page hasn't been translated yet, so here is the English version.
+  rss: RSS
+  theme: Switch between light and dark
+  skip: Skip to content
+  built: Built with a small Python script. Hosted on GitHub Pages.
+  not_found_title: Page not found
+  not_found_text: The page you asked for isn't here. Try the front page.
+  home: Front page
+  projects_intro: Work I built, modelled or wrote, with what I actually did and what I'd change. Featured first, then newest.
+  writing_intro: Short pieces on finance, climate, and building things with AI. Sometimes in Vietnamese.
+  filter_all: All
+
+contact:
+  text: If you're hiring for 2027, working on climate or energy finance, or just want to compare notes, write to me. I answer.

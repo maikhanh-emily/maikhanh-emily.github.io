@@ -1,0 +1,21 @@
+# Shared settings, language-independent.
+# Everything readers see as text lives in content/<lang>/strings.yml.
+
+name: Mai Khanh Do
+first_name: Mai Khanh
+family_name: Do
+nickname: Emily
+
+# Fill these in. A button is hidden while its value is empty.
+linkedin: ""        # e.g. https://www.linkedin.com/in/your-handle
+github: ""          # e.g. https://github.com/your-handle
+cv_file: ""         # e.g. /static/MaiKhanhDo_CV.pdf  (copy the PDF into static/ first)
+
+# Final address of the site. Used for the RSS feed, link previews and the vCard.
+# Set it after the first deploy, e.g. https://your-handle.github.io
+url: ""
+
+portrait: /static/portrait.jpg
+og_image: /static/og-image.jpg
+default_lang: en          # served at the site root
+languages: [en, vi]       # every other language is served under /<lang>/

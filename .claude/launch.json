@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portfolio",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["build.py", "--serve", "8765", "--drafts"],
+      "port": 8765
+    }
+  ]
+}

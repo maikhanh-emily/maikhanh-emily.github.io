@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap listing">
+  <header class="page-head">
+    <h1>{{ S.nav.projects }}</h1>
+    <p>{{ S.labels.projects_intro }}</p>
+  </header>
+  {% if tags %}
+  <div class="filters" data-filters role="group" aria-label="{{ S.labels.tags }}">
+    <button type="button" data-tag="*" aria-pressed="true">{{ S.labels.filter_all }}</button>
+    {% for t in tags if t.projects %}<button type="button" data-tag="{{ t.slug }}" aria-pressed="false">{{ t.name }}</button>{% endfor %}
+  </div>
+  {% endif %}
+  <div class="projects-grid">
+    {% for p in projects %}{% include "_project_card.html" %}{% endfor %}
+  </div>
+</div>
+{% endblock %}

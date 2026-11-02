@@ -1,0 +1,29 @@
+- group: Data and tools
+  items:
+    - Advanced Excel
+    - R
+    - SQL (Google BigQuery)
+    - Python
+    - Claude Code and AI coding assistants
+    - PowerPoint
+- group: Finance and strategy
+  items:
+    - Business cases and scenario analysis
+    - CAPEX/OPEX and LCOE
+    - Applied valuation
+    - Venture and project financing
+    - Competitive market analysis
+- group: Sustainability and regulation
+  items:
+    - EU ETS and CBAM
+    - CSRD/ESRS
+    - GRI
+    - IFRS S1/S2
+    - EU Taxonomy
+    - Carbon accounting
+- group: Languages
+  items:
+    - Vietnamese (native)
+    - English (C1)
+    - German (A2)
+    - Norwegian (learning)

@@ -1,0 +1,6 @@
+<a class="project-card{% if p.featured %} featured{% endif %}" href="{{ L }}projects/{{ p.slug }}/" data-tags="{% for t in p.tags %}{{ t|slug }} {% endfor %}">
+  <div class="pc-top"><span class="pc-year">{{ p.period or p.year }}</span>{% if p.status %}<span class="pc-status">{{ p.status }}</span>{% endif %}</div>
+  <h3>{{ p.title }}</h3>
+  <p>{{ p.summary }}</p>
+  <div class="tags">{% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>
+</a>

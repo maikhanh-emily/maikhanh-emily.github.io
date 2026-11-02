@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap article">
+  <header class="article-head">
+    <p class="crumbs">404</p>
+    <h1>{{ S.labels.not_found_title }}</h1>
+    <p class="subtitle">{{ S.labels.not_found_text }}</p>
+  </header>
+  <p class="actions">
+    {% for alt in alternates %}<a class="btn{% if loop.first %} primary{% endif %}" href="{{ alt.url }}" lang="{{ alt.lang }}">{{ alt.label }}</a>{% endfor %}
+  </p>
+</div>
+{% endblock %}

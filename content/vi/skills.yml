@@ -1,0 +1,29 @@
+- group: Dữ liệu và công cụ
+  items:
+    - Excel nâng cao
+    - R
+    - SQL (Google BigQuery)
+    - Python
+    - Claude Code và trợ lý lập trình AI
+    - PowerPoint
+- group: Tài chính và chiến lược
+  items:
+    - Business case và phân tích kịch bản
+    - CAPEX/OPEX và LCOE
+    - Định giá ứng dụng
+    - Tài trợ vốn mạo hiểm và tài trợ dự án
+    - Phân tích thị trường cạnh tranh
+- group: Bền vững và quy định
+  items:
+    - EU ETS và CBAM
+    - CSRD/ESRS
+    - GRI
+    - IFRS S1/S2
+    - EU Taxonomy
+    - Kiểm kê carbon
+- group: Ngôn ngữ
+  items:
+    - Tiếng Việt (bản ngữ)
+    - Tiếng Anh (C1)
+    - Tiếng Đức (A2)
+    - Tiếng Na Uy (đang học)

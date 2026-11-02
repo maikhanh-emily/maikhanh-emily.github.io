@@ -1,0 +1,28 @@
+- role: Business Development Associate
+  org: Planck Technologies AS
+  org_note: a deep-tech start-up applying AI to materials design for CO₂ capture
+  location: Lysaker, Norway
+  period: Jun 2026 – Dec 2026
+  project: planck-bd-crm
+  bullets:
+    - Ran outreach to industrial and energy customers and joined the client and investor meetings that followed. Kept each pipeline in a CRM I built, with 500+ organisations screened and around 60 in active follow-up.
+    - Led the company's public-funding, prize and accelerator applications, 20+ submitted. Planned each against its deadline, collected input from colleagues across the company and turned one company story into a tailored case for each evaluator.
+    - Built and ran both CRMs, clients and investors, with AI coding assistants and no engineering resource. Specify, back up, test before release.
+    - Wrote the monthly updates, the quarterly business-development deck and the company newsletter.
+
+- role: Green Transformation Consulting Intern
+  org: FPT IS
+  org_note: the technology-services arm of FPT, Vietnam's largest IT group
+  location: Hanoi, Vietnam
+  period: Nov 2024 – Apr 2025
+  project: fpt-carbon-accounting
+  bullets:
+    - Identified data fragmentation as the main compliance risk across multi-entity reporting, and coordinated the enterprise carbon-accounting rollout that closed it, across several client organisations at once with no fixed playbook.
+    - Validated client disclosures against CSRD, GRI and IFRS S1/S2 and turned the findings into briefings, remediation plans and workshops for 50+ stakeholders, in language operational teams could act on.
+
+- role: Tax Compliance Intern
+  org: Hanoi Tax Department
+  location: Hanoi, Vietnam
+  period: Jun 2023 – Sep 2023
+  bullets:
+    - Built Excel dashboards consolidating compliance data across departments. Standardised validation and automated input controls cut reporting processing time by 15%.

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="wrap article">
+  <header class="article-head">
+    <p class="crumbs"><a href="{{ L }}blog/">{{ S.labels.back_writing }}</a></p>
+    <h1>{{ post.title }}{% if post.draft %} <span class="badge">{{ S.labels.draft }}</span>{% endif %}</h1>
+    {% if post.summary %}<p class="subtitle">{{ post.summary }}</p>{% endif %}
+    <p class="byline"><time datetime="{{ post.date.isoformat() }}">{{ fmt_date(post.date) }}</time> · {{ post.minutes }} {{ S.labels.min_read }}</p>
+    {% if post.tags %}<div class="tags">{% for t in post.tags %}<a class="tag" href="{{ L }}tags/{{ t|slug }}/">{{ t }}</a>{% endfor %}</div>{% endif %}
+  </header>
+  <div class="prose">{{ post.html|safe }}</div>
+  {% if related_project %}
+  <aside class="related">
+    <h3 class="sub">{{ S.labels.related_project }}</h3>
+    <p><a href="{{ L }}projects/{{ related_project.slug }}/">{{ related_project.title }}</a><br><span class="muted">{{ related_project.summary }}</span></p>
+  </aside>
+  {% endif %}
+  <footer class="article-foot"><a href="{{ L }}blog/">← {{ S.labels.back_writing }}</a></footer>
+</article>
+{% endblock %}

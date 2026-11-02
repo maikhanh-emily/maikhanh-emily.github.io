@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="{{ S.html_lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_description }}">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f4ee" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131211" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ L }}feed.xml">
+{% for alt in alternates %}
+<link rel="alternate" hreflang="{{ alt.lang }}" href="{{ site.url }}{{ alt.url }}">
+{% endfor %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/style.css">
+<script>(function(){try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();</script>
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_description }}">
+<meta property="og:type" content="{{ og_type|default('website') }}">
+<meta property="og:locale" content="{{ 'vi_VN' if lang == 'vi' else 'en_GB' }}">
+{% if site.url %}
+<meta property="og:url" content="{{ site.url }}{{ canonical }}">
+<meta property="og:image" content="{{ site.url }}{{ site.og_image }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="{{ site.url }}{{ canonical }}">
+{% endif %}
+</head>
+<body>
+<a class="skip" href="#main">{{ S.labels.skip }}</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="{{ L }}"><span class="brand-mark" aria-hidden="true">MK</span><span class="brand-name">{{ site.name }}</span></a>
+    <nav aria-label="Main">
+      <a href="{{ L }}projects/"{% if section == 'projects' %} aria-current="page"{% endif %}>{{ S.nav.projects }}</a>
+      <a href="{{ L }}blog/"{% if section == 'blog' %} aria-current="page"{% endif %}>{{ S.nav.writing }}</a>
+      <a href="{{ L }}now/"{% if section == 'now' %} aria-current="page"{% endif %}>{{ S.nav.now }}</a>
+      <a class="lang" href="{{ alt_url }}" lang="{{ alt_lang }}" hreflang="{{ alt_lang }}">{{ S.switch_label }}</a>
+      <button class="theme-toggle" type="button" aria-label="{{ S.labels.theme }}" title="{{ S.labels.theme }}">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© {{ year }} {{ site.name }} · <a href="{{ L }}feed.xml">{{ S.labels.rss }}</a> · <a href="/contact.vcf" download>{{ S.hero.buttons.vcard }}</a>{% for alt in alternates %}{% if alt.lang != lang %} · <a href="{{ alt.url }}" lang="{{ alt.lang }}">{{ alt.label }}</a>{% endif %}{% endfor %}</p>
+    <p class="muted">{{ S.labels.built }}</p>
+  </div>
+</footer>
+<script src="/static/main.js"></script>
+</body>
+</html>

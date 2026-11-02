@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="wrap article">
+  <header class="article-head">
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}<p class="subtitle">{{ page.summary }}</p>{% endif %}
+    {% if page.updated %}<p class="byline">{{ S.labels.updated }} <time datetime="{{ page.updated.isoformat() }}">{{ fmt_date(page.updated) }}</time></p>{% endif %}
+  </header>
+  {% if page.fallback %}<p class="notice">{{ S.labels.fallback }}</p>{% endif %}
+  <div class="prose">{{ page.html|safe }}</div>
+</article>
+{% endblock %}
