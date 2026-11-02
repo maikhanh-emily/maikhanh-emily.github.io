@@ -4,15 +4,15 @@
     - R
     - SQL (Google BigQuery)
     - Python
-    - Claude Code và trợ lý lập trình AI
+    - Claude Code và các trợ lý lập trình AI
     - PowerPoint
 - group: Tài chính và chiến lược
   items:
     - Business case và phân tích kịch bản
     - CAPEX/OPEX và LCOE
-    - Định giá ứng dụng
-    - Tài trợ vốn mạo hiểm và tài trợ dự án
-    - Phân tích thị trường cạnh tranh
+    - Định giá
+    - Đầu tư mạo hiểm và tài trợ dự án
+    - Phân tích thị trường và đối thủ
 - group: Bền vững và quy định
   items:
     - EU ETS và CBAM
@@ -23,7 +23,7 @@
     - Kiểm kê carbon
 - group: Ngôn ngữ
   items:
-    - Tiếng Việt (bản ngữ)
+    - Tiếng Việt (tiếng mẹ đẻ)
     - Tiếng Anh (C1)
     - Tiếng Đức (A2)
     - Tiếng Na Uy (đang học)

@@ -2,30 +2,30 @@ lang_name: Tiếng Việt
 html_lang: vi
 switch_label: English
 site_title: Mai Khanh Do
-meta_description: "Mai Khanh Do: sinh viên thạc sĩ Tài chính tại BI Norwegian Business School, phát triển kinh doanh tại một start-up deep-tech thiết kế vật liệu thu giữ CO₂. Dự án, kinh nghiệm và bài viết."
+meta_description: "Mai Khanh Do: học thạc sĩ Tài chính tại BI Norwegian Business School, làm phát triển kinh doanh tại một start-up deep-tech về vật liệu thu giữ CO₂. Dự án, kinh nghiệm và bài viết."
 
 nav:
   projects: Dự án
   writing: Bài viết
-  now: Hiện tại
+  now: Gần đây
 
 hero:
   eyebrow: Mai Khanh (Emily) Do
-  headline: Học tài chính, tự dựng công cụ mình cần.
-  title: Thạc sĩ Tài chính tại BI Norwegian Business School · Phát triển kinh doanh tại một start-up deep-tech thiết kế vật liệu thu giữ CO₂
-  lede: Tôi làm việc ở điểm mà phân tích phải trở thành quyết định. Business case, hồ sơ xin tài trợ, số liệu carbon phải đứng vững trước kiểm toán, và những ứng dụng nội bộ nhỏ giúp cả nhóm làm việc minh bạch.
+  headline: Học tài chính, và tự làm lấy những công cụ mình cần.
+  title: Thạc sĩ Tài chính tại BI Norwegian Business School · Phát triển kinh doanh tại một start-up deep-tech về vật liệu thu giữ CO₂
+  lede: "Tôi thích những công việc mà phân tích cuối cùng phải dẫn đến một quyết định: một business case, một bộ hồ sơ xin tài trợ, những con số carbon đủ chắc để giải trình, và cả những ứng dụng nội bộ nhỏ giúp cả nhóm làm việc rõ ràng với nhau."
   location: Bergen và Oslo, Na Uy
   buttons:
-    linkedin: Kết nối qua LinkedIn
+    linkedin: Kết nối trên LinkedIn
     github: GitHub
     cv: CV
-    vcard: Lưu danh bạ
+    vcard: Lưu vào danh bạ
 
 card:
   - label: Đang ở
     value: Bergen và Oslo, Na Uy
   - label: Đang học
-    value: Thạc sĩ Kinh doanh, chuyên ngành Tài chính, BI (tốt nghiệp 2027)
+    value: Thạc sĩ Kinh doanh, chuyên ngành Tài chính, BI (tốt nghiệp năm 2027)
   - label: Đang làm
     value: Luận văn thạc sĩ về rủi ro khí hậu trên thị trường chứng khoán Đức
   - label: Ngôn ngữ
@@ -36,7 +36,7 @@ sections:
   experience: Kinh nghiệm
   projects: Dự án tiêu biểu
   education: Học vấn
-  recognition: Giải thưởng và ghi nhận
+  recognition: Giải thưởng
   skills: Kỹ năng
   writing: Bài viết
   contact: Liên hệ
@@ -52,25 +52,25 @@ labels:
   back_writing: Tất cả bài viết
   role: Vai trò
   period: Thời gian
-  organisation: Tại
-  status: Trạng thái
+  organisation: Đơn vị
+  status: Tình trạng
   tags: Chủ đề
   related_project: Dự án liên quan
   related_posts: Bài viết liên quan
   posts_tagged: Bài viết về
   projects_tagged: Dự án về
-  no_posts: Chưa có bài nào. Vài bản nháp đang chờ.
+  no_posts: Chưa có bài nào được đăng. Vài bản nháp vẫn đang nằm chờ.
   fallback: Trang này chưa có bản tiếng Việt, dưới đây là bản tiếng Anh.
   rss: RSS
-  theme: Chuyển chế độ sáng/tối
-  skip: Bỏ qua đến nội dung
-  built: Dựng bằng một script Python nhỏ. Chạy trên GitHub Pages.
+  theme: Đổi giao diện sáng/tối
+  skip: Đi thẳng đến nội dung
+  built: Trang được dựng bằng một đoạn script Python nhỏ và chạy trên GitHub Pages.
   not_found_title: Không tìm thấy trang
-  not_found_text: Trang bạn tìm không có ở đây. Thử về trang chủ.
+  not_found_text: Trang bạn đang tìm không có ở đây. Bạn có thể quay lại trang chủ.
   home: Trang chủ
-  projects_intro: Những gì tôi đã xây, mô hình hóa hoặc viết, kèm phần tôi thực sự làm và điều tôi sẽ làm khác đi. Dự án tiêu biểu trước, rồi mới nhất.
-  writing_intro: Bài ngắn về tài chính, khí hậu và chuyện dựng công cụ bằng AI. Có bài tiếng Việt, có bài tiếng Anh.
+  projects_intro: Những việc tôi đã xây dựng, tính toán hoặc viết ra, kèm theo phần tôi thực sự đảm nhận và những điều giờ đây tôi sẽ làm khác đi. Dự án tiêu biểu xếp trước, còn lại từ mới đến cũ.
+  writing_intro: Những bài ngắn về tài chính, khí hậu, chuyện tự làm công cụ bằng AI, và đôi khi là chuyện của riêng mình. Có bài tiếng Việt, có bài tiếng Anh.
   filter_all: Tất cả
 
 contact:
-  text: Nếu bạn đang tuyển cho 2027, làm về tài chính khí hậu hay năng lượng, hoặc chỉ muốn trao đổi, hãy nhắn cho tôi qua LinkedIn. Tôi luôn trả lời.
+  text: Nếu bạn đang tuyển dụng cho năm 2027, đang làm về tài chính khí hậu hay năng lượng, hoặc đơn giản là muốn trao đổi, hãy nhắn cho tôi trên LinkedIn. Tôi luôn trả lời.

@@ -175,7 +175,7 @@ def load_language(lang: str, include_drafts: bool) -> dict:
         m = POST_NAME.match(path.stem)
         date = as_date(meta.get("date") or (m.group(1) if m else dt.date.today()))
         slug = meta.get("slug") or (m.group(2) if m else path.stem)
-        posts.append({**meta, "slug": slug, "date": date, "html": render_markdown(body),
+        posts.append({**meta, "slug": slug, "date": date, "html": render_markdown(body), "art": load_art(slug),
                       "tags": meta.get("tags") or [], "lang": lang,
                       "minutes": max(1, round(word_count(body) / 200))})
     posts.sort(key=lambda p: p["date"], reverse=True)

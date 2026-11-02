@@ -8,6 +8,12 @@
     <p class="byline"><time datetime="{{ post.date.isoformat() }}">{{ fmt_date(post.date) }}</time> · {{ post.minutes }} {{ S.labels.min_read }}</p>
     {% if post.tags %}<div class="tags">{% for t in post.tags %}<a class="tag" href="{{ L }}tags/{{ t|slug }}/">{{ t }}</a>{% endfor %}</div>{% endif %}
   </header>
+  {% if post.art %}
+  <figure class="project-art">
+    <div class="frame">{{ post.art|safe }}</div>
+    {% if post.art_caption %}<figcaption>{{ post.art_caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
   <div class="prose">{{ post.html|safe }}</div>
   {% if related_project %}
   <aside class="related">

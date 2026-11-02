@@ -34,7 +34,7 @@ Thêm `draft: true` nếu chưa muốn đăng (bài sẽ không được build k
 
 **Thêm dự án.** Tạo `content/en/projects/ten-du-an.md` và, nếu muốn, `content/vi/projects/ten-du-an.md` cùng tên file. Thiếu bản tiếng Việt thì site tự hiện bản tiếng Anh kèm một dòng báo. Các trường ở đầu file: `title`, `subtitle`, `period`, `year`, `role`, `org`, `tags`, `featured` (true thì lên trang chủ), `order` (thứ tự), `status`, `summary`, `art_caption` (chú thích dưới hình minh họa).
 
-**Minh họa cho dự án.** Thêm một file `content/illustrations/ten-du-an.svg`, cùng tên với file dự án, dùng chung cho cả hai ngôn ngữ. Hình sẽ tự hiện trên thẻ dự án và ở đầu trang dự án. Không có file SVG thì thẻ chỉ hiện chữ. Màu trong SVG dùng các biến `--a-*` trong `static/style.css`, nên tự đổi theo chế độ sáng/tối.
+**Minh họa cho dự án.** Thêm một file `content/illustrations/ten-du-an.svg`, cùng tên với file dự án, dùng chung cho cả hai ngôn ngữ. Hình sẽ tự hiện trên thẻ dự án và ở đầu trang dự án. Không có file SVG thì thẻ chỉ hiện chữ. Bài viết cũng dùng được: đặt tên SVG trùng phần tên bài (không có ngày), hình sẽ hiện ở đầu bài. Hai bản ngôn ngữ của một bài nên trùng tên file để nút đổi ngôn ngữ dẫn thẳng sang bản kia. Màu trong SVG dùng các biến `--a-*` trong `static/style.css`, nên tự đổi theo chế độ sáng/tối.
 
 **Sửa danh thiếp, kinh nghiệm, học vấn, kỹ năng.** Mỗi ngôn ngữ có một thư mục `content/<lang>/` với `strings.yml` (chữ trên giao diện và phần danh thiếp), `experience.yml`, `education.yml`, `recognition.yml`, `skills.yml`, `about.md`, `now.md`.
 
@@ -90,5 +90,6 @@ Requirements: Python 3.10+, `pip install -r requirements.txt` (markdown, Jinja2,
 
 - Nothing from Planck's pipeline, customers, investors or funding status goes on the site. Architecture, approach and round-number scale are fine.
 - No phone number, address, student numbers or email address. LinkedIn is the only contact route, because anything printed on a public page gets harvested for spam and scams.
+- Vietnamese voice: "tôi" on the front page, projects, experience and the Now page, which recruiters read; "mình" only in posts. Write it as natural Vietnamese, never word by word from the English.
 - Illustrations are schematic. No real pipeline data, and nothing that suggests a result a project hasn't reached.
 - Posts marked `draft: true` never reach the public build. Only `python build.py --drafts` on your own machine shows them.

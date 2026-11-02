@@ -1,0 +1,52 @@
+<svg class="art art--sand" viewBox="0 0 640 320" aria-hidden="true" focusable="false">
+<rect x="0" y="0" width="640" height="320" fill="var(--a-bg)"/>
+<circle cx="462" cy="112" r="124" fill="var(--a-w2)" opacity="0.3"/>
+<circle cx="462" cy="112" r="84" fill="var(--a-w2)" opacity="0.6"/>
+<circle cx="462" cy="112" r="44" fill="var(--a-w)"/>
+<path d="M-10 104 Q210 -14 404 58" fill="none" stroke="var(--a-2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 8"/>
+<path d="M0 176 C40 150 70 120 104 112 C130 106 150 140 178 146 C210 152 236 96 270 92 C300 88 322 136 360 150 C392 160 420 146 452 152 C500 160 560 128 640 140 V320 H0 Z" fill="var(--a-3)"/>
+<path d="M0 214 C80 176 170 186 260 204 C350 222 440 176 530 178 C570 179 610 186 640 196 V320 H0 Z" fill="var(--a-2)"/>
+<rect x="508" y="162" width="28" height="18" fill="var(--a-w)"/>
+<polygon points="503,163 522,149 541,163" fill="var(--a-1)"/>
+<rect x="518" y="169" width="7" height="11" fill="var(--a-p)"/>
+<path d="M0 262 C90 226 210 222 320 246 C430 270 540 262 640 230 V320 H0 Z" fill="var(--a-sea)"/>
+<path d="M0 262 C90 226 210 222 320 246 C430 270 540 262 640 230" fill="none" stroke="var(--a-w2)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+<circle cx="297.1" cy="285.2" r="1.6" fill="var(--a-p)"/>
+<circle cx="14" cy="291.1" r="2.5" fill="var(--a-w2)"/>
+<circle cx="353.6" cy="296.4" r="1.4" fill="var(--a-w2)"/>
+<circle cx="446.2" cy="288.8" r="2.3" fill="var(--a-w2)"/>
+<circle cx="157.6" cy="273.1" r="2" fill="var(--a-p)"/>
+<circle cx="376.1" cy="303.6" r="1.9" fill="var(--a-p)"/>
+<circle cx="73" cy="281.4" r="2.2" fill="var(--a-p)"/>
+<circle cx="271.5" cy="272" r="1.7" fill="var(--a-w2)"/>
+<circle cx="184.3" cy="305.2" r="1.6" fill="var(--a-p)"/>
+<circle cx="555.2" cy="270.5" r="1.9" fill="var(--a-w2)"/>
+<circle cx="24.6" cy="287.5" r="2.5" fill="var(--a-w2)"/>
+<circle cx="380" cy="273.6" r="2.1" fill="var(--a-p)"/>
+<circle cx="135.9" cy="268.4" r="1.5" fill="var(--a-w2)"/>
+<circle cx="20.8" cy="271.9" r="2" fill="var(--a-p)"/>
+<circle cx="270.5" cy="286.3" r="2.2" fill="var(--a-w2)"/>
+<circle cx="369.5" cy="275.9" r="2.1" fill="var(--a-p)"/>
+<circle cx="43.6" cy="293.5" r="2.1" fill="var(--a-w2)"/>
+<circle cx="176.4" cy="313.8" r="2.6" fill="var(--a-w2)"/>
+<circle cx="447.4" cy="311.7" r="1.7" fill="var(--a-p)"/>
+<circle cx="36.7" cy="284.8" r="2.2" fill="var(--a-w2)"/>
+<circle cx="490.3" cy="272" r="1.8" fill="var(--a-p)"/>
+<circle cx="372.2" cy="288.8" r="1.9" fill="var(--a-p)"/>
+<circle cx="366.2" cy="268.8" r="2.4" fill="var(--a-w2)"/>
+<circle cx="278.8" cy="277.8" r="1.9" fill="var(--a-w2)"/>
+<circle cx="65.1" cy="297" r="1.5" fill="var(--a-p)"/>
+<circle cx="25.7" cy="303.9" r="2.4" fill="var(--a-w2)"/>
+<circle cx="449.9" cy="279.4" r="2.3" fill="var(--a-w2)"/>
+<circle cx="153.2" cy="312.3" r="1.9" fill="var(--a-w2)"/>
+<circle cx="543.1" cy="285" r="2.2" fill="var(--a-w2)"/>
+<circle cx="532.8" cy="279.9" r="1.5" fill="var(--a-p)"/>
+<circle cx="117.1" cy="311.5" r="2.6" fill="var(--a-p)"/>
+<circle cx="17.4" cy="270.8" r="1.7" fill="var(--a-w2)"/>
+<circle cx="389.2" cy="312.5" r="1.8" fill="var(--a-w2)"/>
+<circle cx="358.4" cy="274.3" r="1.5" fill="var(--a-w2)"/>
+<circle cx="176" cy="190" r="6.5" fill="var(--a-ink)"/>
+<path d="M167 233 C167 212 171 199 176 199 C181 199 185 212 185 233 Z" fill="var(--a-ink)"/>
+<path d="M198 211 V204 H205 V211" fill="none" stroke="var(--a-w)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="193" y="211" width="17" height="22" rx="2.5" fill="var(--a-w)"/>
+</svg>
