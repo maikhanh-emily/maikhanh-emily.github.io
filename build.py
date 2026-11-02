@@ -16,9 +16,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import re
-import shutil
 import sys
-import time
 import unicodedata
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -97,30 +95,45 @@ def project_sort_key(p):
     return (not p.get("featured"), p.get("order", 99), -int(p.get("year") or 0))
 
 
-def clean_dir(path: Path) -> None:
-    """Empty the output folder. Removes files first and retries, because a
-    sync client (OneDrive) can hold a folder open for a moment after its
-    files are deleted."""
-    if not path.exists():
-        path.mkdir(parents=True)
-        return
-    for child in list(path.rglob("*")):
-        if child.is_file():
+class Output:
+    """Writes into dist/ without churn: a file is rewritten only when its
+    content changed, and stale files are removed at the end. That keeps a
+    sync client (OneDrive) calm and never needs to delete whole folders."""
+
+    def __init__(self, root: Path):
+        self.root = root
+        self.written: set[Path] = set()
+        self.changed = 0
+
+    def put(self, rel: str, data: bytes) -> None:
+        path = self.root / rel
+        self.written.add(path)
+        if path.exists() and path.read_bytes() == data:
+            return
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(data)
+        self.changed += 1
+
+    def copy_tree(self, src: Path, rel: str) -> None:
+        for file in src.rglob("*"):
+            if file.is_file():
+                self.put(str(Path(rel) / file.relative_to(src)), file.read_bytes())
+
+    def prune(self) -> int:
+        removed = 0
+        for file in self.root.rglob("*"):
+            if file.is_file() and file not in self.written:
+                try:
+                    file.unlink()
+                    removed += 1
+                except OSError:
+                    pass
+        for d in sorted((d for d in self.root.rglob("*") if d.is_dir()), key=lambda d: len(d.parts), reverse=True):
             try:
-                child.unlink()
-            except PermissionError:
-                time.sleep(0.5)
-                child.unlink()
-    dirs = sorted((d for d in path.rglob("*") if d.is_dir()), key=lambda d: len(d.parts), reverse=True)
-    for d in dirs:
-        for attempt in range(6):
-            try:
-                d.rmdir()
-                break
+                d.rmdir()  # only succeeds when empty
             except OSError:
-                if attempt == 5:
-                    break  # an empty folder the sync client still holds; harmless
-                time.sleep(0.4 * (attempt + 1))
+                pass
+        return removed
 
 
 # ---------- loading ----------
@@ -257,9 +270,9 @@ def build(include_drafts: bool = False) -> None:
     data = {lang: load_language(lang, include_drafts) for lang in langs}
     apply_fallbacks(data, default)
 
-    clean_dir(DIST)
-    shutil.copytree(STATIC, DIST / "static", dirs_exist_ok=True)
-    (DIST / ".nojekyll").write_text("", encoding="utf-8")
+    out = Output(DIST)
+    out.copy_tree(STATIC, "static")
+    out.put(".nojekyll", b"")
 
     env = Environment(
         loader=FileSystemLoader(str(TEMPLATES)),
@@ -295,7 +308,6 @@ def build(include_drafts: bool = False) -> None:
         return out
 
     def write(out_rel: str, template: str, lang: str, alts: list, **ctx) -> None:
-        out = DIST / out_rel
         depth = len(Path(out_rel).parts) - 1
         root = "../" * depth if depth else "./"
         d = data[lang]
@@ -310,8 +322,7 @@ def build(include_drafts: bool = False) -> None:
         }
         html = env.get_template(template).render(**context)
         html = ABS_LINK.sub(lambda m: m.group(1) + root, html)
-        out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(html, encoding="utf-8")
+        out.put(out_rel, html.encode("utf-8"))
 
     pages_written = 0
     for lang in langs:
@@ -349,13 +360,15 @@ def build(include_drafts: bool = False) -> None:
             write(f"{sub}tags/{tag['slug']}/index.html", "tag.html", lang, alternates("tag", tag["slug"]),
                   section="tags", tag=tag,
                   page_title=f"{tag['name']} · {name}", page_description=desc)
-        (DIST / sub / "feed.xml").write_text(feed_xml(site, d, prefix_of(lang)), encoding="utf-8")
+        out.put(f"{sub}feed.xml", feed_xml(site, d, prefix_of(lang)).encode("utf-8"))
         pages_written += 4 + len(d["projects"]) + len(d["posts"]) + len(tags)
 
     write("404.html", "404.html", default, alternates("home"), section="404",
           page_title=f"404 · {site.get('name', '')}", page_description="")
-    (DIST / "contact.vcf").write_text(vcard(site, data[default]["strings"]), encoding="utf-8")
-    print(f"Built {pages_written} pages for {', '.join(langs)} into {DIST.relative_to(ROOT)}/"
+    out.put("contact.vcf", vcard(site, data[default]["strings"]).encode("utf-8"))
+    removed = out.prune()
+    print(f"Built {pages_written} pages for {', '.join(langs)} into {DIST.relative_to(ROOT)}/ "
+          f"({out.changed} files written, {removed} stale removed)"
           + (" (drafts included)" if include_drafts else ""))
 
 
