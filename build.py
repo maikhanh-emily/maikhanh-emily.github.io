@@ -97,6 +97,13 @@ def load_art(slug: str) -> str:
     return path.read_text(encoding="utf-8").strip() if path.exists() else ""
 
 
+def og_image_for(slug) -> str:
+    """The link-preview image made by og_images.py for this slug, or "" for the site-wide one."""
+    if slug and (STATIC / "og" / f"{slug}.jpg").exists():
+        return f"/static/og/{slug}.jpg"
+    return ""
+
+
 def word_count(text: str) -> int:
     return len(re.findall(r"\w+", text))
 
@@ -363,6 +370,7 @@ def build(include_drafts: bool = False) -> None:
             related = [post for post in d["posts"] if post.get("project") == p["slug"]]
             write(f"{sub}projects/{p['slug']}/index.html", "project.html", lang, alternates("project", p["slug"]),
                   section="projects", p=p, related_posts=related, og_type="article",
+                  og_image=og_image_for(p["slug"]),
                   page_title=f"{p['title']} · {name}", page_description=p.get("summary", ""))
         write(f"{sub}blog/index.html", "blog.html", lang, alternates("blog"),
               section="blog", page_title=f"{S['nav']['writing']} · {name}", page_description=S["labels"]["writing_intro"])
@@ -370,6 +378,7 @@ def build(include_drafts: bool = False) -> None:
             related_project = next((p for p in d["projects"] if p["slug"] == post.get("project")), None)
             write(f"{sub}blog/{post['slug']}/index.html", "post.html", lang, alternates("post", post["slug"]),
                   section="blog", post=post, related_project=related_project, og_type="article",
+                  og_image=og_image_for(post["slug"]) or og_image_for(post.get("project")),
                   page_title=f"{post['title']} · {name}", page_description=post.get("summary", ""))
         for slug, page in d["pages"].items():
             if slug == "about":

@@ -24,7 +24,9 @@
 <meta property="og:locale" content="{{ 'vi_VN' if lang == 'vi' else 'en_GB' }}">
 {% if site.url %}
 <meta property="og:url" content="{{ site.url }}{{ canonical }}">
-<meta property="og:image" content="{{ site.url }}{{ site.og_image }}">
+<meta property="og:image" content="{{ site.url }}{{ og_image or site.og_image }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="{{ site.url }}{{ canonical }}">
 {% endif %}

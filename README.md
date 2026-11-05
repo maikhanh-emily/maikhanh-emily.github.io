@@ -36,6 +36,8 @@ Bài chưa muốn đăng thì để trong `content/en/drafts/` hoặc `content/v
 
 **Minh họa cho dự án.** Thêm một file `content/illustrations/ten-du-an.svg`, cùng tên với file dự án, dùng chung cho cả hai ngôn ngữ. Hình sẽ tự hiện trên thẻ dự án và ở đầu trang dự án. Không có file SVG thì thẻ chỉ hiện chữ. Bài viết cũng dùng được: đặt tên SVG trùng phần tên bài (không có ngày), hình sẽ hiện ở đầu bài. Hai bản ngôn ngữ của một bài nên trùng tên file để nút đổi ngôn ngữ dẫn thẳng sang bản kia. Màu trong SVG dùng các biến `--a-*` trong `static/style.css`, nên tự đổi theo chế độ sáng/tối.
 
+**Ảnh xem trước khi chia sẻ link.** LinkedIn và các mạng xã hội không đọc được SVG. Vì vậy sau khi thêm hoặc sửa một hình minh họa, chạy `python3 og_images.py` (cần Google Chrome) để tạo ảnh JPG 1200×630 trong `static/og/`. Trang dự án hoặc bài viết có ảnh này sẽ dùng nó khi được chia sẻ. Bài viết không có hình riêng thì dùng ảnh của dự án liên quan (trường `project:`), không có nữa thì dùng `static/og-image.jpg`. LinkedIn lưu ảnh cũ một thời gian: dán link vào [Post Inspector](https://www.linkedin.com/post-inspector/) để làm mới.
+
 **Sửa danh thiếp, kinh nghiệm, học vấn, kỹ năng.** Mỗi ngôn ngữ có một thư mục `content/<lang>/` với `strings.yml` (chữ trên giao diện và phần danh thiếp), `experience.yml`, `education.yml`, `recognition.yml`, `skills.yml`, `about.md`, `now.md`.
 
 **Link LinkedIn, GitHub, file CV, địa chỉ site.** Sửa `site.yml`. Nút nào để trống sẽ tự ẩn.
@@ -79,7 +81,9 @@ content/<lang>/         everything a reader sees, one folder per language
 content/illustrations/  one SVG per project, same filename as the project, shared across languages
 templates/              Jinja2 templates (base, index, projects, project, blog, post, page, tag, 404) and _mark.svg, the MK monogram
 static/                 style.css, main.js, favicon.svg, portrait-cut.webp, portrait.jpg, og-image.jpg
+static/og/              link-preview JPGs, one per illustration, made by og_images.py
 build.py                the whole build: Markdown + YAML → dist/
+og_images.py            illustrations → static/og/*.jpg via headless Chrome (run it locally, then commit)
 .github/workflows/      builds dist/ and deploys it to GitHub Pages on every push to main
 ```
 
