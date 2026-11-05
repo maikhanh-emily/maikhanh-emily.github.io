@@ -2,7 +2,7 @@ lang_name: Tiếng Việt
 html_lang: vi
 switch_label: English
 site_title: Mai Khanh Do
-meta_description: "Đỗ Mai Khanh (Emily): học thạc sĩ Tài chính tại BI Norwegian Business School, làm phát triển kinh doanh tại một start-up deep-tech về vật liệu thu giữ CO₂. Dự án, kinh nghiệm và bài viết."
+meta_description: "Đỗ Mai Khanh (Emily): học thạc sĩ Tài chính tại BI Norwegian Business School, từng làm phát triển kinh doanh tại một start-up deep-tech về vật liệu thu giữ CO₂. Dự án, kinh nghiệm và bài viết."
 
 nav:
   projects: Dự án
@@ -12,7 +12,7 @@ nav:
 hero:
   eyebrow: Đỗ Mai Khanh (Emily)
   headline: Học tài chính, và tự làm những công cụ mình cần.
-  title: Học thạc sĩ Tài chính tại BI Norwegian Business School · Làm phát triển kinh doanh tại một start-up deep-tech về vật liệu thu giữ CO₂
+  title: Học thạc sĩ Tài chính tại BI Norwegian Business School · Từng làm phát triển kinh doanh tại một start-up deep-tech về vật liệu thu giữ CO₂
   lede: "Tôi thích những công việc mà kết quả phân tích được dùng để ra quyết định thật: xây dựng business case, làm hồ sơ xin tài trợ, kiểm tra số liệu carbon, hay làm các công cụ nội bộ cho cả nhóm cùng dùng."
   location: Bergen và Oslo, Na Uy
   buttons:
@@ -36,6 +36,8 @@ route:
     note: Học và làm việc, 2026
 
 card:
+  - label: Có thể bắt đầu
+    value: Từ tháng 8/2027, sẵn sàng chuyển đến bất cứ đâu nếu công việc phù hợp.
   - label: Đang ở
     value: Bergen và Oslo, Na Uy
   - label: Đang học

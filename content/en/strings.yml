@@ -2,7 +2,7 @@ lang_name: English
 html_lang: en
 switch_label: Tiếng Việt
 site_title: Mai Khanh Do
-meta_description: "Mai Khanh Do: finance student at BI Norwegian Business School, business development at a deep-tech start-up designing materials for CO₂ capture. Projects, experience and writing."
+meta_description: "Mai Khanh Do: finance student at BI Norwegian Business School, previously in business development at a deep-tech start-up designing materials for CO₂ capture. Projects, experience and writing."
 
 nav:
   projects: Projects
@@ -12,7 +12,7 @@ nav:
 hero:
   eyebrow: Mai Khanh (Emily) Do
   headline: Finance student who builds the tools she needs.
-  title: MSc Finance at BI Norwegian Business School · Business development at a deep-tech start-up designing materials for CO₂ capture
+  title: MSc Finance at BI Norwegian Business School · Previously business development at a deep-tech start-up designing materials for CO₂ capture
   lede: I work where analysis has to become a decision. Business cases, funding applications, carbon numbers that have to hold up, and the small internal apps that keep a team honest.
   location: Bergen and Oslo, Norway
   buttons:
@@ -36,6 +36,8 @@ route:
     note: Study and work, 2026
 
 card:
+  - label: Available
+    value: From August 2027. Open to relocating anywhere for the right role.
   - label: Based in
     value: Bergen and Oslo, Norway
   - label: Studying

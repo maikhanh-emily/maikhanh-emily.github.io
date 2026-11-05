@@ -1,15 +1,15 @@
 ---
 title: A CRM built with no engineers
 subtitle: The web app that runs a start-up's business-development pipeline, built with AI coding assistants
-period: Jun 2026 – present
+period: Jun – Nov 2026
 year: 2026
 role: Designer, builder and owner
 org: Planck Technologies AS
 tags: [Building with AI, Software, Business development]
 featured: true
 order: 1
-status: In daily use
-summary: Planck's commercial pipeline lived in a spreadsheet. I built the web application that replaced it, with Claude Code and no engineering resource. The team works from it every day.
+status: Handed over, November 2026
+summary: Planck's commercial pipeline lived in a spreadsheet. I built the web application that replaced it, with Claude Code and no engineering resource. The team worked from it every day.
 art_caption: "A schematic of the pipeline board: companies move through stages, each with a fit score, and a status line confirms every save. No real data."
 ---
 ## The problem
@@ -18,18 +18,18 @@ Planck Technologies is a Norwegian deep-tech start-up that applies AI to materia
 
 ## What I built
 
-An internal CRM for the client pipeline, and later a second one for investors. Companies enter through a fit score, move through stages, carry contacts, notes and an activity log, and feed dashboard, pipeline, outreach and reporting views. The weekly report to management comes straight out of it. Scale: 500+ organisations screened, about 60 in active follow-up.
+An internal CRM for the client pipeline, and later a second one for investors. Companies enter through a fit score, move through stages, carry contacts, notes and an activity log, and feed dashboard, pipeline, outreach and reporting views. The weekly report to management came straight out of it. Scale: 500+ organisations screened, about 60 in active follow-up.
 
 ## How it works
 
 The architecture is unusual, and deliberately so.
 
 - A React app written as a single JSX file, compiled by a Python script into one standalone HTML file. No Node, no npm, no server. People open it by double-clicking.
-- State lives in the browser. For the team, one shared JSON file sits in a folder OneDrive already syncs, and each browser reads and writes it through the File System Access API.
+- State lives in the browser. For the team, one shared JSON file sits in a cloud folder everyone already syncs, and each browser reads and writes it through the File System Access API.
 - Merging is per record and per field. Every record carries a timestamp and who wrote it, so if I change a prospect's stage while a colleague changes its owner, both edits survive. Deletes leave a tombstone, so a record deleted on one machine isn't resurrected by the next sync.
 - Companies are scored out of 100 across eight weighted criteria (use-case fit, urgency, warmth, decision speed, revenue potential, proximity, partner complementarity, build-versus-buy risk), with a cut-off for entering the catalogue. The weights are judgement, not fitted to outcomes, because there weren't yet enough closed outcomes to fit anything to. I'd rather say that than defend them.
 
-The trade-off: nothing to provision, secure or pay for, and a non-engineer can ship and maintain it alone. The costs: a few seconds of compile on first load, a file-sync product used as a database, and no real authentication. Right for a team of two. It starts to bite at six.
+The trade-off: nothing to provision, host or pay for, and a non-engineer can ship and maintain it alone. The costs: a few seconds of compile on first load, a file-sync product used as a database, and a setup sized for a small team that trusts each other. Right for a team of two. It starts to bite at six.
 
 ## What went wrong
 
@@ -43,6 +43,6 @@ Specify before prompting. Back up before changing, with timestamped snapshots. R
 
 ## What I'd change next
 
-Split the single 7,500-line file into modules so someone else can contribute. Precompile instead of compiling in the browser. Replace file sync with a proper backend. And add real identity before people I haven't met start editing shared state.
+Split the single 7,500-line file into modules so someone else can contribute. Precompile instead of compiling in the browser. Replace file sync with a proper backend. And build in proper user management before the team grows.
 
 *The app is internal, so there is no public link, and I don't share pipeline contents or commercial relationships.*
