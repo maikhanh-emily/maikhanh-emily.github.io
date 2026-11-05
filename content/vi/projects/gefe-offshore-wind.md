@@ -25,3 +25,12 @@ Phân tích khả thi thương mại: tính CAPEX và OPEX từ chi phí tua-bin
 Xây mô hình không phải phần khó nhất. Khó hơn là đưa ra các giả định, và chỉ ra được ba giả định nào quyết định kết quả. Kịch bản về thời điểm hoàn thiện khung pháp lý làm kết quả thay đổi nhiều hơn mọi thông số kỹ thuật, và điều đó cho thấy rủi ro thực sự của các dự án năng lượng ở thị trường mới nổi nằm ở đâu.
 
 Kết quả: top 9 trong hơn 300 đội.
+
+## Thử xem: giả định nào quyết định kết quả?
+
+Đây là phiên bản rút gọn của cùng phép tính, dùng số liệu công khai chứ không phải số của nhóm. Bạn thử kéo từng thông số để xem chi phí thay đổi ra sao. Các thanh ngang cho biết chi phí dịch đi bao nhiêu khi chỉ một thông số thay đổi, còn các thông số khác giữ nguyên.
+
+<div class="lcoe" data-lcoe></div>
+<script src="/static/lcoe.js" defer></script>
+
+*Chỉ mang tính minh họa. Chi phí đầu tư (khoảng 2.850 USD/kW) và hệ số công suất (42%) lấy theo [mức trung bình toàn cầu năm 2024 của IRENA](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_Summary_2025.pdf) cho điện gió ngoài khơi; chi phí vận hành và chi phí vốn là giả định của tôi. Phép tính giả định vòng đời 25 năm, giá thực, không tính thuế, và mỗi năm chậm phát điện cộng thêm một năm chi phí vốn vào khoản đầu tư. Để so sánh, [lộ trình điện gió ngoài khơi năm 2021 của World Bank](https://documents1.worldbank.org/curated/en/261981623120856300/pdf/Offshore-Wind-Development-Program-Offshore-Wind-Roadmap-for-Vietnam.pdf) ước tính các dự án móng cố định đầu tiên ở Việt Nam có chi phí khoảng 174 USD/MWh, giảm xuống còn 73–83 USD/MWh với các dự án lắp đặt năm 2030.*

@@ -1,26 +1,27 @@
+# Items can link to the project that shows the skill: {name: ..., project: <slug>}
 - group: Dữ liệu và công cụ
   items:
     - Excel nâng cao
-    - R
-    - SQL (Google BigQuery)
+    - {name: "R", project: thesis-climate-risk-germany}
+    - {name: "SQL (Google BigQuery)", project: thesis-climate-risk-germany}
     - Python
-    - Claude Code và các trợ lý lập trình AI
+    - {name: "Claude Code và các trợ lý lập trình AI", project: planck-bd-crm}
     - PowerPoint
 - group: Tài chính và chiến lược
   items:
-    - Business case và phân tích kịch bản
-    - CAPEX/OPEX và LCOE
+    - {name: "Business case và phân tích kịch bản", project: gefe-offshore-wind}
+    - {name: "CAPEX/OPEX và LCOE", project: gefe-offshore-wind}
     - Định giá
-    - Đầu tư mạo hiểm và tài trợ dự án
+    - {name: "Đầu tư mạo hiểm và tài trợ dự án", project: biotech-venture-financing}
     - Phân tích thị trường và đối thủ
 - group: Bền vững và quy định
   items:
-    - EU ETS và CBAM
-    - CSRD/ESRS
-    - GRI
-    - IFRS S1/S2
+    - {name: "EU ETS và CBAM", project: cbam-energy-trilemma}
+    - {name: "CSRD/ESRS", project: fpt-carbon-accounting}
+    - {name: "GRI", project: fpt-carbon-accounting}
+    - {name: "IFRS S1/S2", project: fpt-carbon-accounting}
     - EU Taxonomy
-    - Kiểm kê carbon
+    - {name: "Kiểm kê carbon", project: fpt-carbon-accounting}
 - group: Ngôn ngữ
   items:
     - Tiếng Việt (tiếng mẹ đẻ)

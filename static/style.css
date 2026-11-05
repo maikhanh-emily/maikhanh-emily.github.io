@@ -283,6 +283,9 @@ a.tag:hover { color: var(--accent); text-decoration: underline; }
 .chips { font-size: .94rem; color: var(--ink-2); line-height: 1.7; }
 .chip { display: inline-block; }
 .chip:not(:last-child)::after { content: "·"; margin: 0 .5rem; color: var(--accent-2); }
+a.chip { color: inherit; text-decoration: underline; text-decoration-color: var(--line-2); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+a.chip:hover { color: var(--accent); text-decoration-color: currentColor; }
+a.chip::after { display: inline-block; text-decoration: none; }
 
 /* Contact */
 .contact .big { font-family: var(--display); font-weight: 500; font-size: clamp(1.8rem, 3.4vw, 2.5rem); line-height: 1.14; margin: 0 0 1.25rem; max-width: 26ch; text-wrap: pretty; }
@@ -349,6 +352,49 @@ a.tag:hover { color: var(--accent); text-decoration: underline; }
 .site-footer p { margin: .2rem 0; }
 .site-footer .muted { color: inherit; opacity: .72; }
 .site-footer a { color: inherit; text-underline-offset: 3px; }
+
+/* ---------- LCOE calculator (static/lcoe.js) ---------- */
+.lcoe { --tn-name: 13.5rem; margin: 1.6em 0 1.2em; padding: 1.4rem 1.5rem 1.2rem; background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--r); font-size: .92rem; line-height: 1.45; }
+.lcoe-result { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .6rem; padding-bottom: 1rem; margin-bottom: 1.1rem; border-bottom: 1px solid var(--line); }
+.lcoe-result-label { flex-basis: 100%; font-size: .82rem; font-weight: 600; color: var(--ink-3); }
+.lcoe-result-value { font-family: var(--display); font-weight: 500; font-size: 3rem; line-height: 1; color: var(--ink); font-variant-numeric: tabular-nums; }
+.lcoe-result-unit { color: var(--ink-3); }
+.lcoe-inputs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem 2rem; }
+.lcoe-input { display: grid; grid-template-columns: 1fr auto; gap: .15rem .5rem; align-items: baseline; }
+.lcoe-input label { color: var(--ink-2); }
+.lcoe-input output { font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+.lcoe-input input[type="range"] { grid-column: 1 / -1; width: 100%; margin: .2rem 0 0; accent-color: var(--accent); }
+.lcoe-reset { align-self: end; justify-self: start; font: inherit; font-size: .84rem; font-weight: 500; padding: .3rem .7rem; border: 1px solid var(--line-2); border-radius: var(--r); background: transparent; color: var(--ink-2); cursor: pointer; }
+.lcoe-reset:hover { background: var(--paper-3); color: var(--ink); }
+.lcoe-chart { position: relative; margin: 1.6rem 0 0; }
+.lcoe-chart figcaption { margin-bottom: .8rem; }
+.lcoe-chart-title { display: block; font-weight: 600; color: var(--ink); }
+.lcoe-chart-note { display: block; font-size: .84rem; color: var(--ink-3); }
+.tn-row { display: grid; grid-template-columns: var(--tn-name) minmax(0, 1fr); gap: 1rem; align-items: center; padding: .3rem 0; border-radius: var(--r); outline-offset: 2px; }
+.tn-row:hover .tn-bar, .tn-row:focus .tn-bar { filter: brightness(.92); }
+.tn-name { display: flex; flex-direction: column; color: var(--ink-2); line-height: 1.25; }
+.tn-span { font-size: .78rem; color: var(--ink-3); }
+.tn-track { position: relative; height: 2rem; margin: 0 2.4rem; background: repeating-linear-gradient(to right, var(--line) 0 1px, transparent 1px var(--tn-grid, 20%)); }
+.tn-bar { position: absolute; top: .55rem; height: .9rem; background: var(--art-warm); border-radius: 4px; }
+.tn-base { position: absolute; top: 0; bottom: 0; width: 2px; margin-left: -1px; background: var(--ink); }
+.tn-lo, .tn-hi { position: absolute; top: .45rem; font-size: .78rem; color: var(--ink-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tn-lo { padding-right: .35rem; }
+.tn-hi { padding-left: .35rem; }
+.tn-axis { display: grid; grid-template-columns: var(--tn-name) minmax(0, 1fr); gap: 1rem; margin-top: .2rem; font-size: .76rem; color: var(--ink-3); }
+.tn-axis-unit { text-align: right; }
+.tn-ticks { position: relative; height: 1.1rem; margin: 0 2.4rem; }
+.tn-ticks span { position: absolute; transform: translateX(-50%); font-variant-numeric: tabular-nums; }
+.tn-tip { position: absolute; z-index: 2; max-width: 260px; padding: .45rem .6rem; background: var(--ink); color: var(--paper); border-radius: var(--r); font-size: .8rem; line-height: 1.35; pointer-events: none; }
+.lcoe-table { margin-top: 1rem; }
+.lcoe-table summary { cursor: pointer; font-size: .84rem; color: var(--accent); }
+.lcoe-table table { margin: .6rem 0 0; }
+.lcoe-table-current td { font-weight: 600; }
+@media (max-width: 680px) {
+  .lcoe { --tn-name: 7.5rem; padding: 1.1rem 1rem 1rem; }
+  .lcoe-inputs { grid-template-columns: 1fr; }
+  .tn-track, .tn-ticks { margin: 0 2rem; }
+  .tn-ticks span:nth-child(even) { visibility: hidden; }
+}
 
 /* ---------- Responsive ---------- */
 @media (max-width: 900px) {

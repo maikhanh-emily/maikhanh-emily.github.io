@@ -25,3 +25,12 @@ The commercial feasibility: a CAPEX and OPEX build-up from turbine, foundation, 
 The model is not the hard part. The assumptions are, and so is being able to say which three of them decide the answer. The scenario on regulatory timing moved the result more than any technical input, which says something about where risk really sits in energy projects in emerging markets.
 
 Result: top 9 of more than 300 teams.
+
+## Try it: which assumptions decide the answer?
+
+A simplified version of the same calculation, with public figures rather than the team's. Move an input and watch the cost. The bars show how far the cost moves when one input changes and the others stay put.
+
+<div class="lcoe" data-lcoe></div>
+<script src="/static/lcoe.js" defer></script>
+
+*Illustrative only. Installed cost (about USD 2,850/kW) and capacity factor (42%) are [IRENA's 2024 global averages](https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_Summary_2025.pdf) for offshore wind; operating cost and cost of capital are my assumptions. The calculation assumes a 25-year life, real terms and no tax, and each year of delay adds a year of financing cost to the investment. For scale, the [World Bank's 2021 roadmap](https://documents1.worldbank.org/curated/en/261981623120856300/pdf/Offshore-Wind-Development-Program-Offshore-Wind-Roadmap-for-Vietnam.pdf) put the first fixed-bottom projects in Vietnam at about USD 174/MWh, falling to USD 73–83/MWh for projects installed in 2030.*

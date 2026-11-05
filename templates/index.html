@@ -122,7 +122,7 @@
     {% for g in skills %}
     <div>
       <h3 class="sub">{{ g.group }}</h3>
-      <div class="chips">{% for item in g["items"] %}<span class="chip">{{ item }}</span>{% endfor %}</div>
+      <div class="chips">{% for item in g["items"] %}{% if item is mapping %}<a class="chip" href="{{ L }}projects/{{ item.project }}/">{{ item.name }}</a>{% else %}<span class="chip">{{ item }}</span>{% endif %}{% endfor %}</div>
     </div>
     {% endfor %}
   </div>

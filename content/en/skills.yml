@@ -1,26 +1,27 @@
+# Items can link to the project that shows the skill: {name: ..., project: <slug>}
 - group: Data and tools
   items:
     - Advanced Excel
-    - R
-    - SQL (Google BigQuery)
+    - {name: "R", project: thesis-climate-risk-germany}
+    - {name: "SQL (Google BigQuery)", project: thesis-climate-risk-germany}
     - Python
-    - Claude Code and AI coding assistants
+    - {name: "Claude Code and AI coding assistants", project: planck-bd-crm}
     - PowerPoint
 - group: Finance and strategy
   items:
-    - Business cases and scenario analysis
-    - CAPEX/OPEX and LCOE
+    - {name: "Business cases and scenario analysis", project: gefe-offshore-wind}
+    - {name: "CAPEX/OPEX and LCOE", project: gefe-offshore-wind}
     - Applied valuation
-    - Venture and project financing
+    - {name: "Venture and project financing", project: biotech-venture-financing}
     - Competitive market analysis
 - group: Sustainability and regulation
   items:
-    - EU ETS and CBAM
-    - CSRD/ESRS
-    - GRI
-    - IFRS S1/S2
+    - {name: "EU ETS and CBAM", project: cbam-energy-trilemma}
+    - {name: "CSRD/ESRS", project: fpt-carbon-accounting}
+    - {name: "GRI", project: fpt-carbon-accounting}
+    - {name: "IFRS S1/S2", project: fpt-carbon-accounting}
     - EU Taxonomy
-    - Carbon accounting
+    - {name: "Carbon accounting", project: fpt-carbon-accounting}
 - group: Languages
   items:
     - Vietnamese (native)
